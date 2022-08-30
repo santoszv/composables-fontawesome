@@ -72,7 +72,12 @@ val generateComposables by tasks.registering(DefaultTask::class) {
                         writer.appendLine("        attr(\"focusable\", \"false\")")
                         writer.appendLine("        attrs?.invoke(this)")
                         writer.appendLine("    }) {")
-                        writer.appendLine("        Path(d = \"$path\")")
+                        writer.appendLine("        Path(")
+                        writer.appendLine("            attrs = {")
+                        writer.appendLine("                attr(\"fill\", \"currentColor\")")
+                        writer.appendLine("            },")
+                        writer.appendLine("            d = \"$path\"")
+                        writer.appendLine("        )")
                         writer.appendLine("    }")
                         writer.appendLine("}")
                     }
@@ -98,7 +103,7 @@ publishing {
         artifact(jsJavadoc)
         groupId = "mx.com.inftel.oss"
         artifactId = "fontawesome-composables"
-        version = "6.1.2"
+        version = "6.1.2-r1"
         pom {
             name.set("Composables FontAwesome Icons")
             description.set("Composables FontAwesome Icons")

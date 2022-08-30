@@ -33,7 +33,7 @@ More info:
 
 | FontAwesome Composables | Compose for Web | KotlinJS |
 |-------------------------|-----------------|----------|
-| 6.1.2                   | 1.1.1           | 1.6.10   |
+| 6.1.2-r1                | 1.1.1           | 1.6.10   |
 
 ## License
 
