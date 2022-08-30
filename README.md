@@ -25,6 +25,10 @@ dependencies {
 }
 ```
 
+More info:
+
+- https://fontawesome.com/docs/web/add-icons/svg-bare
+
 ### Version compatibility
 
 | FontAwesome Composables | Compose for Web | KotlinJS |
