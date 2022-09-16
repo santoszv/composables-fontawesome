@@ -12,6 +12,11 @@ More info:
 Add to `build.gradle.kts`:
 
 ```
+plugins {
+    kotlin("js") version <version>
+    id("org.jetbrains.compose") version <version>
+}
+
 repositories {
     ...
     mavenCentral()
@@ -20,6 +25,9 @@ repositories {
 
 dependencies {
     ...
+    implementation(compose.runtime)
+    implementation(compose.web.core)
+    implementation(compose.web.svg)
     implementation("mx.com.inftel.oss:fontawesome-composables:<version>")
     ...
 }

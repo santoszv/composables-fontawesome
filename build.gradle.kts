@@ -20,6 +20,8 @@ repositories {
 }
 
 dependencies {
+    implementation(compose.runtime)
+    implementation(compose.web.core)
     implementation(compose.web.svg)
 }
 
