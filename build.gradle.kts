@@ -103,7 +103,7 @@ publishing {
         artifact(jsJavadoc)
         groupId = "mx.com.inftel.oss"
         artifactId = "fontawesome-composables"
-        version = "6.1.2-r1"
+        version = "6.2.0"
         pom {
             name.set("Composables FontAwesome Icons")
             description.set("Composables FontAwesome Icons")
