@@ -5,6 +5,7 @@ FontAwesome SVG Icons as composables for Compose for Web.
 More info:
 
 - https://fontawesome.com/
+- https://fontawesome.com/docs/web/add-icons/svg-bare
 - https://www.jetbrains.com/lp/compose-mpp/
 
 ## Usage
@@ -41,8 +42,10 @@ More info:
 
 | FontAwesome Composables | Compose for Web | KotlinJS |
 |-------------------------|-----------------|----------|
+| 6.1.2                   | 1.1.1           | 1.6.10   |
 | 6.1.2-r1                | 1.1.1           | 1.6.10   |
 | 6.2.0                   | 1.1.1           | 1.6.10   |
+| 6.2.0-r1                | 1.1.1           | 1.6.10   |
 ## License
 
 Font Awesome Free License

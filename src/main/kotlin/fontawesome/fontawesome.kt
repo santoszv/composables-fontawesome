@@ -169,6 +169,9 @@ to represent the company, product, or service to which they refer.**
 package fontawesome
 
 import androidx.compose.runtime.Composable
+import org.jetbrains.compose.web.css.em
+import org.jetbrains.compose.web.css.height
+import org.jetbrains.compose.web.css.width
 import org.jetbrains.compose.web.dom.AttrBuilderContext
 import org.jetbrains.compose.web.svg.Path
 import org.jetbrains.compose.web.svg.Svg
@@ -177,6 +180,11 @@ import org.w3c.dom.svg.SVGElement
 @Composable
 fun faSolid0(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -193,6 +201,11 @@ fun faSolid0(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolid1(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 256 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -209,6 +222,11 @@ fun faSolid1(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolid2(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -225,6 +243,11 @@ fun faSolid2(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolid3(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -241,6 +264,11 @@ fun faSolid3(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolid4(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -257,6 +285,11 @@ fun faSolid4(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolid5(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -273,6 +306,11 @@ fun faSolid5(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolid6(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -289,6 +327,11 @@ fun faSolid6(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolid7(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -305,6 +348,11 @@ fun faSolid7(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolid8(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -321,6 +369,11 @@ fun faSolid8(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolid9(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -337,6 +390,11 @@ fun faSolid9(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrands42Group(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -353,6 +411,11 @@ fun faBrands42Group(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrands500px(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -369,6 +432,11 @@ fun faBrands500px(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidA(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -385,6 +453,11 @@ fun faSolidA(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAccessibleIcon(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -401,6 +474,11 @@ fun faBrandsAccessibleIcon(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAccusoft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -417,6 +495,11 @@ fun faBrandsAccusoft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAddressBook(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -433,6 +516,11 @@ fun faSolidAddressBook(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularAddressBook(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -449,6 +537,11 @@ fun faRegularAddressBook(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAddressCard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -465,6 +558,11 @@ fun faSolidAddressCard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularAddressCard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -481,6 +579,11 @@ fun faRegularAddressCard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAdn(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -497,6 +600,11 @@ fun faBrandsAdn(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAdversal(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -513,6 +621,11 @@ fun faBrandsAdversal(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAffiliatetheme(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -529,6 +642,11 @@ fun faBrandsAffiliatetheme(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAirbnb(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -545,6 +663,11 @@ fun faBrandsAirbnb(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAlgolia(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -561,6 +684,11 @@ fun faBrandsAlgolia(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAlignCenter(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -577,6 +705,11 @@ fun faSolidAlignCenter(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAlignJustify(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -593,6 +726,11 @@ fun faSolidAlignJustify(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAlignLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -609,6 +747,11 @@ fun faSolidAlignLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAlignRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -625,6 +768,11 @@ fun faSolidAlignRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAlipay(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -641,6 +789,11 @@ fun faBrandsAlipay(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAmazon(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -657,6 +810,11 @@ fun faBrandsAmazon(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAmazonPay(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -673,6 +831,11 @@ fun faBrandsAmazonPay(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAmilia(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -689,6 +852,11 @@ fun faBrandsAmilia(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAnchor(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -705,6 +873,11 @@ fun faSolidAnchor(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAnchorCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -721,6 +894,11 @@ fun faSolidAnchorCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAnchorCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -737,6 +915,11 @@ fun faSolidAnchorCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null
 @Composable
 fun faSolidAnchorCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -753,6 +936,11 @@ fun faSolidAnchorCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAnchorLock(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -769,6 +957,11 @@ fun faSolidAnchorLock(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAndroid(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -785,6 +978,11 @@ fun faBrandsAndroid(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAngellist(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -801,6 +999,11 @@ fun faBrandsAngellist(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAngleDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -817,6 +1020,11 @@ fun faSolidAngleDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAngleLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -833,6 +1041,11 @@ fun faSolidAngleLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAngleRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -849,6 +1062,11 @@ fun faSolidAngleRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAngleUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -865,6 +1083,11 @@ fun faSolidAngleUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAnglesDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -881,6 +1104,11 @@ fun faSolidAnglesDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAnglesLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -897,6 +1125,11 @@ fun faSolidAnglesLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAnglesRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -913,6 +1146,11 @@ fun faSolidAnglesRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAnglesUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -929,6 +1167,11 @@ fun faSolidAnglesUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAngrycreative(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -945,6 +1188,11 @@ fun faBrandsAngrycreative(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAngular(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -961,6 +1209,11 @@ fun faBrandsAngular(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAnkh(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -977,6 +1230,11 @@ fun faSolidAnkh(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAppStore(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -993,6 +1251,11 @@ fun faBrandsAppStore(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAppStoreIos(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1009,6 +1272,11 @@ fun faBrandsAppStoreIos(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsApper(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1025,6 +1293,11 @@ fun faBrandsApper(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsApple(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1041,6 +1314,11 @@ fun faBrandsApple(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsApplePay(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1057,6 +1335,11 @@ fun faBrandsApplePay(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAppleWhole(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1073,6 +1356,11 @@ fun faSolidAppleWhole(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArchway(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1089,6 +1377,11 @@ fun faSolidArchway(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1105,6 +1398,11 @@ fun faSolidArrowDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowDown19(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1121,6 +1419,11 @@ fun faSolidArrowDown19(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowDown91(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1137,6 +1440,11 @@ fun faSolidArrowDown91(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowDownAZ(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1153,6 +1461,11 @@ fun faSolidArrowDownAZ(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowDownLong(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1169,6 +1482,11 @@ fun faSolidArrowDownLong(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowDownShortWide(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1185,6 +1503,11 @@ fun faSolidArrowDownShortWide(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowDownUpAcrossLine(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1201,6 +1524,11 @@ fun faSolidArrowDownUpAcrossLine(attrs: AttrBuilderContext<SVGElement>? = null) 
 @Composable
 fun faSolidArrowDownUpLock(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1217,6 +1545,11 @@ fun faSolidArrowDownUpLock(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowDownWideShort(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1233,6 +1566,11 @@ fun faSolidArrowDownWideShort(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowDownZA(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1249,6 +1587,11 @@ fun faSolidArrowDownZA(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1265,6 +1608,11 @@ fun faSolidArrowLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowLeftLong(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1281,6 +1629,11 @@ fun faSolidArrowLeftLong(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowPointer(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1297,6 +1650,11 @@ fun faSolidArrowPointer(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1313,6 +1671,11 @@ fun faSolidArrowRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowRightArrowLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1329,6 +1692,11 @@ fun faSolidArrowRightArrowLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowRightFromBracket(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1345,6 +1713,11 @@ fun faSolidArrowRightFromBracket(attrs: AttrBuilderContext<SVGElement>? = null) 
 @Composable
 fun faSolidArrowRightLong(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1361,6 +1734,11 @@ fun faSolidArrowRightLong(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowRightToBracket(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1377,6 +1755,11 @@ fun faSolidArrowRightToBracket(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowRightToCity(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1393,6 +1776,11 @@ fun faSolidArrowRightToCity(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowRotateLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1409,6 +1797,11 @@ fun faSolidArrowRotateLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowRotateRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1425,6 +1818,11 @@ fun faSolidArrowRotateRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowTrendDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1441,6 +1839,11 @@ fun faSolidArrowTrendDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowTrendUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1457,6 +1860,11 @@ fun faSolidArrowTrendUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowTurnDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1473,6 +1881,11 @@ fun faSolidArrowTurnDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowTurnUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1489,6 +1902,11 @@ fun faSolidArrowTurnUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1505,6 +1923,11 @@ fun faSolidArrowUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowUp19(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1521,6 +1944,11 @@ fun faSolidArrowUp19(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowUp91(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1537,6 +1965,11 @@ fun faSolidArrowUp91(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowUpAZ(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1553,6 +1986,11 @@ fun faSolidArrowUpAZ(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowUpFromBracket(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1569,6 +2007,11 @@ fun faSolidArrowUpFromBracket(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowUpFromGroundWater(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1585,6 +2028,11 @@ fun faSolidArrowUpFromGroundWater(attrs: AttrBuilderContext<SVGElement>? = null)
 @Composable
 fun faSolidArrowUpFromWaterPump(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1601,6 +2049,11 @@ fun faSolidArrowUpFromWaterPump(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowUpLong(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1617,6 +2070,11 @@ fun faSolidArrowUpLong(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowUpRightDots(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1633,6 +2091,11 @@ fun faSolidArrowUpRightDots(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowUpRightFromSquare(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1649,6 +2112,11 @@ fun faSolidArrowUpRightFromSquare(attrs: AttrBuilderContext<SVGElement>? = null)
 @Composable
 fun faSolidArrowUpShortWide(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1665,6 +2133,11 @@ fun faSolidArrowUpShortWide(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowUpWideShort(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1681,6 +2154,11 @@ fun faSolidArrowUpWideShort(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowUpZA(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1697,6 +2175,11 @@ fun faSolidArrowUpZA(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowsDownToLine(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1713,6 +2196,11 @@ fun faSolidArrowsDownToLine(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowsDownToPeople(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1729,6 +2217,11 @@ fun faSolidArrowsDownToPeople(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowsLeftRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1745,6 +2238,11 @@ fun faSolidArrowsLeftRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowsLeftRightToLine(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1761,6 +2259,11 @@ fun faSolidArrowsLeftRightToLine(attrs: AttrBuilderContext<SVGElement>? = null) 
 @Composable
 fun faSolidArrowsRotate(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1777,6 +2280,11 @@ fun faSolidArrowsRotate(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowsSpin(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1793,6 +2301,11 @@ fun faSolidArrowsSpin(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowsSplitUpAndLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1809,6 +2322,11 @@ fun faSolidArrowsSplitUpAndLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowsToCircle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1825,6 +2343,11 @@ fun faSolidArrowsToCircle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowsToDot(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1841,6 +2364,11 @@ fun faSolidArrowsToDot(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowsToEye(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1857,6 +2385,11 @@ fun faSolidArrowsToEye(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowsTurnRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1873,6 +2406,11 @@ fun faSolidArrowsTurnRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowsTurnToDots(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1889,6 +2427,11 @@ fun faSolidArrowsTurnToDots(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowsUpDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1905,6 +2448,11 @@ fun faSolidArrowsUpDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidArrowsUpDownLeftRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1921,6 +2469,11 @@ fun faSolidArrowsUpDownLeftRight(attrs: AttrBuilderContext<SVGElement>? = null) 
 @Composable
 fun faSolidArrowsUpToLine(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1937,6 +2490,11 @@ fun faSolidArrowsUpToLine(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsArtstation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1953,6 +2511,11 @@ fun faBrandsArtstation(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAsterisk(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1969,6 +2532,11 @@ fun faSolidAsterisk(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAsymmetrik(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -1985,6 +2553,11 @@ fun faBrandsAsymmetrik(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2001,6 +2574,11 @@ fun faSolidAt(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAtlassian(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2017,6 +2595,11 @@ fun faBrandsAtlassian(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAtom(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2033,6 +2616,11 @@ fun faSolidAtom(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAudible(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2049,6 +2637,11 @@ fun faBrandsAudible(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAudioDescription(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2065,6 +2658,11 @@ fun faSolidAudioDescription(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAustralSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2081,6 +2679,11 @@ fun faSolidAustralSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAutoprefixer(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2097,6 +2700,11 @@ fun faBrandsAutoprefixer(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAvianex(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2113,6 +2721,11 @@ fun faBrandsAvianex(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAviato(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2129,6 +2742,11 @@ fun faBrandsAviato(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidAward(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2145,6 +2763,11 @@ fun faSolidAward(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsAws(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2161,6 +2784,11 @@ fun faBrandsAws(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidB(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2177,6 +2805,11 @@ fun faSolidB(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBaby(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2193,6 +2826,11 @@ fun faSolidBaby(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBabyCarriage(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2209,6 +2847,11 @@ fun faSolidBabyCarriage(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBackward(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2225,6 +2868,11 @@ fun faSolidBackward(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBackwardFast(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2241,6 +2889,11 @@ fun faSolidBackwardFast(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBackwardStep(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2257,6 +2910,11 @@ fun faSolidBackwardStep(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBacon(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2273,6 +2931,11 @@ fun faSolidBacon(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBacteria(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2289,6 +2952,11 @@ fun faSolidBacteria(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBacterium(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2305,6 +2973,11 @@ fun faSolidBacterium(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBagShopping(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2321,6 +2994,11 @@ fun faSolidBagShopping(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBahai(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2337,6 +3015,11 @@ fun faSolidBahai(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBahtSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2353,6 +3036,11 @@ fun faSolidBahtSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBan(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2369,6 +3057,11 @@ fun faSolidBan(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBanSmoking(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2385,6 +3078,11 @@ fun faSolidBanSmoking(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBandage(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2401,6 +3099,11 @@ fun faSolidBandage(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBandcamp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2417,6 +3120,11 @@ fun faBrandsBandcamp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBarcode(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2433,6 +3141,11 @@ fun faSolidBarcode(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBars(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2449,6 +3162,11 @@ fun faSolidBars(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBarsProgress(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2465,6 +3183,11 @@ fun faSolidBarsProgress(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBarsStaggered(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2481,6 +3204,11 @@ fun faSolidBarsStaggered(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBaseball(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2497,6 +3225,11 @@ fun faSolidBaseball(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBaseballBatBall(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2513,6 +3246,11 @@ fun faSolidBaseballBatBall(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBasketShopping(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2529,6 +3267,11 @@ fun faSolidBasketShopping(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBasketball(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2545,6 +3288,11 @@ fun faSolidBasketball(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBath(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2561,6 +3309,11 @@ fun faSolidBath(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBatteryEmpty(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2577,6 +3330,11 @@ fun faSolidBatteryEmpty(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBatteryFull(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2593,6 +3351,11 @@ fun faSolidBatteryFull(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBatteryHalf(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2609,6 +3372,11 @@ fun faSolidBatteryHalf(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBatteryQuarter(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2625,6 +3393,11 @@ fun faSolidBatteryQuarter(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBatteryThreeQuarters(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2641,6 +3414,11 @@ fun faSolidBatteryThreeQuarters(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBattleNet(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2657,6 +3435,11 @@ fun faBrandsBattleNet(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBed(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2673,6 +3456,11 @@ fun faSolidBed(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBedPulse(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2689,6 +3477,11 @@ fun faSolidBedPulse(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBeerMugEmpty(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2705,6 +3498,11 @@ fun faSolidBeerMugEmpty(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBehance(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2721,6 +3519,11 @@ fun faBrandsBehance(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBell(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2737,6 +3540,11 @@ fun faSolidBell(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularBell(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2753,6 +3561,11 @@ fun faRegularBell(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBellConcierge(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2769,6 +3582,11 @@ fun faSolidBellConcierge(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBellSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2785,6 +3603,11 @@ fun faSolidBellSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularBellSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2801,6 +3624,11 @@ fun faRegularBellSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBezierCurve(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2817,6 +3645,11 @@ fun faSolidBezierCurve(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBicycle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2833,6 +3666,11 @@ fun faSolidBicycle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBilibili(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2849,6 +3687,11 @@ fun faBrandsBilibili(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBimobject(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2865,6 +3708,11 @@ fun faBrandsBimobject(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBinoculars(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2881,6 +3729,11 @@ fun faSolidBinoculars(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBiohazard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2897,6 +3750,11 @@ fun faSolidBiohazard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBitbucket(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2913,6 +3771,11 @@ fun faBrandsBitbucket(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBitcoin(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2929,6 +3792,11 @@ fun faBrandsBitcoin(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBitcoinSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2945,6 +3813,11 @@ fun faSolidBitcoinSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBity(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2961,6 +3834,11 @@ fun faBrandsBity(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBlackTie(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2977,6 +3855,11 @@ fun faBrandsBlackTie(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBlackberry(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -2993,6 +3876,11 @@ fun faBrandsBlackberry(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBlender(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3009,6 +3897,11 @@ fun faSolidBlender(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBlenderPhone(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3025,6 +3918,11 @@ fun faSolidBlenderPhone(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBlog(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3041,6 +3939,11 @@ fun faSolidBlog(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBlogger(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3057,6 +3960,11 @@ fun faBrandsBlogger(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBloggerB(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3073,6 +3981,11 @@ fun faBrandsBloggerB(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBluetooth(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3089,6 +4002,11 @@ fun faBrandsBluetooth(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBluetoothB(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3105,6 +4023,11 @@ fun faBrandsBluetoothB(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBold(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3121,6 +4044,11 @@ fun faSolidBold(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBolt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3137,6 +4065,11 @@ fun faSolidBolt(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBoltLightning(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3153,6 +4086,11 @@ fun faSolidBoltLightning(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBomb(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3169,6 +4107,11 @@ fun faSolidBomb(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBone(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3185,6 +4128,11 @@ fun faSolidBone(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBong(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3201,6 +4149,11 @@ fun faSolidBong(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBook(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3217,6 +4170,11 @@ fun faSolidBook(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBookAtlas(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3233,6 +4191,11 @@ fun faSolidBookAtlas(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBookBible(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3249,6 +4212,11 @@ fun faSolidBookBible(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBookBookmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3265,6 +4233,11 @@ fun faSolidBookBookmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBookJournalWhills(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3281,6 +4254,11 @@ fun faSolidBookJournalWhills(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBookMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3297,6 +4275,11 @@ fun faSolidBookMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBookOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3313,6 +4296,11 @@ fun faSolidBookOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBookOpenReader(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3329,6 +4317,11 @@ fun faSolidBookOpenReader(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBookQuran(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3345,6 +4338,11 @@ fun faSolidBookQuran(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBookSkull(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3361,6 +4359,11 @@ fun faSolidBookSkull(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBookTanakh(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3377,6 +4380,11 @@ fun faSolidBookTanakh(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBookmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3393,6 +4401,11 @@ fun faSolidBookmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularBookmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3409,6 +4422,11 @@ fun faRegularBookmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBootstrap(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3425,6 +4443,11 @@ fun faBrandsBootstrap(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBorderAll(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3441,6 +4464,11 @@ fun faSolidBorderAll(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBorderNone(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3457,6 +4485,11 @@ fun faSolidBorderNone(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBorderTopLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3473,6 +4506,11 @@ fun faSolidBorderTopLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBoreHole(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3489,6 +4527,11 @@ fun faSolidBoreHole(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBots(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3505,6 +4548,11 @@ fun faBrandsBots(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBottleDroplet(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 256 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3521,6 +4569,11 @@ fun faSolidBottleDroplet(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBottleWater(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 256 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3537,6 +4590,11 @@ fun faSolidBottleWater(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBowlFood(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3553,6 +4611,11 @@ fun faSolidBowlFood(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBowlRice(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3569,6 +4632,11 @@ fun faSolidBowlRice(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBowlingBall(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3585,6 +4653,11 @@ fun faSolidBowlingBall(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBox(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3601,6 +4674,11 @@ fun faSolidBox(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBoxArchive(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3617,6 +4695,11 @@ fun faSolidBoxArchive(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBoxOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3633,6 +4716,11 @@ fun faSolidBoxOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBoxTissue(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3649,6 +4737,11 @@ fun faSolidBoxTissue(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBoxesPacking(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3665,6 +4758,11 @@ fun faSolidBoxesPacking(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBoxesStacked(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3681,6 +4779,11 @@ fun faSolidBoxesStacked(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBraille(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3697,6 +4800,11 @@ fun faSolidBraille(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBrain(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3713,6 +4821,11 @@ fun faSolidBrain(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBrazilianRealSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3729,6 +4842,11 @@ fun faSolidBrazilianRealSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBreadSlice(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3745,6 +4863,11 @@ fun faSolidBreadSlice(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBridge(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3761,6 +4884,11 @@ fun faSolidBridge(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBridgeCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3777,6 +4905,11 @@ fun faSolidBridgeCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBridgeCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3793,6 +4926,11 @@ fun faSolidBridgeCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null
 @Composable
 fun faSolidBridgeCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3809,6 +4947,11 @@ fun faSolidBridgeCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBridgeLock(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3825,6 +4968,11 @@ fun faSolidBridgeLock(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBridgeWater(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3841,6 +4989,11 @@ fun faSolidBridgeWater(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBriefcase(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3857,6 +5010,11 @@ fun faSolidBriefcase(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBriefcaseMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3873,6 +5031,11 @@ fun faSolidBriefcaseMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBroom(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3889,6 +5052,11 @@ fun faSolidBroom(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBroomBall(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3905,6 +5073,11 @@ fun faSolidBroomBall(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBrush(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3921,6 +5094,11 @@ fun faSolidBrush(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBtc(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3937,6 +5115,11 @@ fun faBrandsBtc(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBucket(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3953,6 +5136,11 @@ fun faSolidBucket(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBuffer(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3969,6 +5157,11 @@ fun faBrandsBuffer(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBug(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -3985,6 +5178,11 @@ fun faSolidBug(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBugSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4001,6 +5199,11 @@ fun faSolidBugSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBugs(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4017,6 +5220,11 @@ fun faSolidBugs(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBuilding(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4033,6 +5241,11 @@ fun faSolidBuilding(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularBuilding(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4049,6 +5262,11 @@ fun faRegularBuilding(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBuildingCircleArrowRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4065,6 +5283,11 @@ fun faSolidBuildingCircleArrowRight(attrs: AttrBuilderContext<SVGElement>? = nul
 @Composable
 fun faSolidBuildingCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4081,6 +5304,11 @@ fun faSolidBuildingCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBuildingCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4097,6 +5325,11 @@ fun faSolidBuildingCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = nu
 @Composable
 fun faSolidBuildingCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4113,6 +5346,11 @@ fun faSolidBuildingCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBuildingColumns(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4129,6 +5367,11 @@ fun faSolidBuildingColumns(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBuildingFlag(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4145,6 +5388,11 @@ fun faSolidBuildingFlag(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBuildingLock(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4161,6 +5409,11 @@ fun faSolidBuildingLock(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBuildingNgo(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4177,6 +5430,11 @@ fun faSolidBuildingNgo(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBuildingShield(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4193,6 +5451,11 @@ fun faSolidBuildingShield(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBuildingUn(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4209,6 +5472,11 @@ fun faSolidBuildingUn(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBuildingUser(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4225,6 +5493,11 @@ fun faSolidBuildingUser(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBuildingWheat(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4241,6 +5514,11 @@ fun faSolidBuildingWheat(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBullhorn(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4257,6 +5535,11 @@ fun faSolidBullhorn(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBullseye(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4273,6 +5556,11 @@ fun faSolidBullseye(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBurger(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4289,6 +5577,11 @@ fun faSolidBurger(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBuromobelexperte(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4305,6 +5598,11 @@ fun faBrandsBuromobelexperte(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBurst(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4321,6 +5619,11 @@ fun faSolidBurst(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4337,6 +5640,11 @@ fun faSolidBus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBusSimple(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4353,6 +5661,11 @@ fun faSolidBusSimple(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidBusinessTime(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4369,6 +5682,11 @@ fun faSolidBusinessTime(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBuyNLarge(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4385,6 +5703,11 @@ fun faBrandsBuyNLarge(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsBuysellads(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4401,6 +5724,11 @@ fun faBrandsBuysellads(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidC(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4417,6 +5745,11 @@ fun faSolidC(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCableCar(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4433,6 +5766,11 @@ fun faSolidCableCar(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCakeCandles(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4449,6 +5787,11 @@ fun faSolidCakeCandles(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCalculator(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4465,6 +5808,11 @@ fun faSolidCalculator(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCalendar(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4481,6 +5829,11 @@ fun faSolidCalendar(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCalendar(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4497,6 +5850,11 @@ fun faRegularCalendar(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCalendarCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4513,6 +5871,11 @@ fun faSolidCalendarCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCalendarCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4529,6 +5892,11 @@ fun faRegularCalendarCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCalendarDay(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4545,6 +5913,11 @@ fun faSolidCalendarDay(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCalendarDays(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4561,6 +5934,11 @@ fun faSolidCalendarDays(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCalendarDays(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4577,6 +5955,11 @@ fun faRegularCalendarDays(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCalendarMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4593,6 +5976,11 @@ fun faSolidCalendarMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCalendarMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4609,6 +5997,11 @@ fun faRegularCalendarMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCalendarPlus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4625,6 +6018,11 @@ fun faSolidCalendarPlus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCalendarPlus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4641,6 +6039,11 @@ fun faRegularCalendarPlus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCalendarWeek(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4657,6 +6060,11 @@ fun faSolidCalendarWeek(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCalendarXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4673,6 +6081,11 @@ fun faSolidCalendarXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCalendarXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4689,6 +6102,11 @@ fun faRegularCalendarXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCamera(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4705,6 +6123,11 @@ fun faSolidCamera(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCameraRetro(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4721,6 +6144,11 @@ fun faSolidCameraRetro(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCameraRotate(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4737,6 +6165,11 @@ fun faSolidCameraRotate(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCampground(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4753,6 +6186,11 @@ fun faSolidCampground(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCanadianMapleLeaf(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4769,6 +6207,11 @@ fun faBrandsCanadianMapleLeaf(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCandyCane(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4785,6 +6228,11 @@ fun faSolidCandyCane(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCannabis(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4801,6 +6249,11 @@ fun faSolidCannabis(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCapsules(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4817,6 +6270,11 @@ fun faSolidCapsules(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCar(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4833,6 +6291,11 @@ fun faSolidCar(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCarBattery(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4849,6 +6312,11 @@ fun faSolidCarBattery(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCarBurst(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4865,6 +6333,11 @@ fun faSolidCarBurst(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCarOn(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4881,6 +6354,11 @@ fun faSolidCarOn(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCarRear(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4897,6 +6375,11 @@ fun faSolidCarRear(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCarSide(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4913,6 +6396,11 @@ fun faSolidCarSide(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCarTunnel(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4929,6 +6417,11 @@ fun faSolidCarTunnel(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCaravan(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4945,6 +6438,11 @@ fun faSolidCaravan(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCaretDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4961,6 +6459,11 @@ fun faSolidCaretDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCaretLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 256 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4977,6 +6480,11 @@ fun faSolidCaretLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCaretRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 256 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -4993,6 +6501,11 @@ fun faSolidCaretRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCaretUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5009,6 +6522,11 @@ fun faSolidCaretUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCarrot(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5025,6 +6543,11 @@ fun faSolidCarrot(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCartArrowDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5041,6 +6564,11 @@ fun faSolidCartArrowDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCartFlatbed(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5057,6 +6585,11 @@ fun faSolidCartFlatbed(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCartFlatbedSuitcase(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5073,6 +6606,11 @@ fun faSolidCartFlatbedSuitcase(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCartPlus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5089,6 +6627,11 @@ fun faSolidCartPlus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCartShopping(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5105,6 +6648,11 @@ fun faSolidCartShopping(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCashRegister(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5121,6 +6669,11 @@ fun faSolidCashRegister(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCat(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5137,6 +6690,11 @@ fun faSolidCat(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCcAmazonPay(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5153,6 +6711,11 @@ fun faBrandsCcAmazonPay(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCcAmex(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5169,6 +6732,11 @@ fun faBrandsCcAmex(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCcApplePay(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5185,6 +6753,11 @@ fun faBrandsCcApplePay(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCcDinersClub(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5201,6 +6774,11 @@ fun faBrandsCcDinersClub(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCcDiscover(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5217,6 +6795,11 @@ fun faBrandsCcDiscover(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCcJcb(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5233,6 +6816,11 @@ fun faBrandsCcJcb(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCcMastercard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5249,6 +6837,11 @@ fun faBrandsCcMastercard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCcPaypal(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5265,6 +6858,11 @@ fun faBrandsCcPaypal(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCcStripe(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5281,6 +6879,11 @@ fun faBrandsCcStripe(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCcVisa(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5297,6 +6900,11 @@ fun faBrandsCcVisa(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCediSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5313,6 +6921,11 @@ fun faSolidCediSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCentSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5329,6 +6942,11 @@ fun faSolidCentSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCentercode(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5345,6 +6963,11 @@ fun faBrandsCentercode(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCentos(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5361,6 +6984,11 @@ fun faBrandsCentos(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCertificate(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5377,6 +7005,11 @@ fun faSolidCertificate(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChair(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5393,6 +7026,11 @@ fun faSolidChair(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChalkboard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5409,6 +7047,11 @@ fun faSolidChalkboard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChalkboardUser(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5425,6 +7068,11 @@ fun faSolidChalkboardUser(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChampagneGlasses(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5441,6 +7089,11 @@ fun faSolidChampagneGlasses(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChargingStation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5457,6 +7110,11 @@ fun faSolidChargingStation(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChartArea(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5473,6 +7131,11 @@ fun faSolidChartArea(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChartBar(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5489,6 +7152,11 @@ fun faSolidChartBar(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularChartBar(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5505,6 +7173,11 @@ fun faRegularChartBar(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChartColumn(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5521,6 +7194,11 @@ fun faSolidChartColumn(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChartGantt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5537,6 +7215,11 @@ fun faSolidChartGantt(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChartLine(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5553,6 +7236,11 @@ fun faSolidChartLine(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChartPie(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5569,6 +7257,11 @@ fun faSolidChartPie(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChartSimple(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5585,6 +7278,11 @@ fun faSolidChartSimple(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5601,6 +7299,11 @@ fun faSolidCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCheckDouble(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5617,6 +7320,11 @@ fun faSolidCheckDouble(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCheckToSlot(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5633,6 +7341,11 @@ fun faSolidCheckToSlot(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCheese(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5649,6 +7362,11 @@ fun faSolidCheese(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChess(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5665,6 +7383,11 @@ fun faSolidChess(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChessBishop(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5681,6 +7404,11 @@ fun faSolidChessBishop(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularChessBishop(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5697,6 +7425,11 @@ fun faRegularChessBishop(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChessBoard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5713,6 +7446,11 @@ fun faSolidChessBoard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChessKing(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5729,6 +7467,11 @@ fun faSolidChessKing(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularChessKing(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5745,6 +7488,11 @@ fun faRegularChessKing(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChessKnight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5761,6 +7509,11 @@ fun faSolidChessKnight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularChessKnight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5777,6 +7530,11 @@ fun faRegularChessKnight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChessPawn(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5793,6 +7551,11 @@ fun faSolidChessPawn(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularChessPawn(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5809,6 +7572,11 @@ fun faRegularChessPawn(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChessQueen(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5825,6 +7593,11 @@ fun faSolidChessQueen(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularChessQueen(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5841,6 +7614,11 @@ fun faRegularChessQueen(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChessRook(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5857,6 +7635,11 @@ fun faSolidChessRook(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularChessRook(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5873,6 +7656,11 @@ fun faRegularChessRook(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChevronDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5889,6 +7677,11 @@ fun faSolidChevronDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChevronLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5905,6 +7698,11 @@ fun faSolidChevronLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChevronRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5921,6 +7719,11 @@ fun faSolidChevronRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChevronUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5937,6 +7740,11 @@ fun faSolidChevronUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChild(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5953,6 +7761,11 @@ fun faSolidChild(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChildDress(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5969,6 +7782,11 @@ fun faSolidChildDress(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChildReaching(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -5985,6 +7803,11 @@ fun faSolidChildReaching(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChildRifle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6001,6 +7824,11 @@ fun faSolidChildRifle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChildren(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6017,6 +7845,11 @@ fun faSolidChildren(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsChrome(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6033,6 +7866,11 @@ fun faBrandsChrome(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsChromecast(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6049,6 +7887,11 @@ fun faBrandsChromecast(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidChurch(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6065,6 +7908,11 @@ fun faSolidChurch(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6081,6 +7929,11 @@ fun faSolidCircle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCircle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6097,6 +7950,11 @@ fun faRegularCircle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleArrowDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6113,6 +7971,11 @@ fun faSolidCircleArrowDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleArrowLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6129,6 +7992,11 @@ fun faSolidCircleArrowLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleArrowRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6145,6 +8013,11 @@ fun faSolidCircleArrowRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleArrowUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6161,6 +8034,11 @@ fun faSolidCircleArrowUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6177,6 +8055,11 @@ fun faSolidCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6193,6 +8076,11 @@ fun faRegularCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleChevronDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6209,6 +8097,11 @@ fun faSolidCircleChevronDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleChevronLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6225,6 +8118,11 @@ fun faSolidCircleChevronLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleChevronRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6241,6 +8139,11 @@ fun faSolidCircleChevronRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleChevronUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6257,6 +8160,11 @@ fun faSolidCircleChevronUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleDollarToSlot(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6273,6 +8181,11 @@ fun faSolidCircleDollarToSlot(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleDot(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6289,6 +8202,11 @@ fun faSolidCircleDot(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCircleDot(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6305,6 +8223,11 @@ fun faRegularCircleDot(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6321,6 +8244,11 @@ fun faSolidCircleDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCircleDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6337,6 +8265,11 @@ fun faRegularCircleDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6353,6 +8286,11 @@ fun faSolidCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleH(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6369,6 +8307,11 @@ fun faSolidCircleH(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleHalfStroke(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6385,6 +8328,11 @@ fun faSolidCircleHalfStroke(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleInfo(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6401,6 +8349,11 @@ fun faSolidCircleInfo(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6417,6 +8370,11 @@ fun faSolidCircleLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCircleLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6433,6 +8391,11 @@ fun faRegularCircleLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6449,6 +8412,11 @@ fun faSolidCircleMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleNodes(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6465,6 +8433,11 @@ fun faSolidCircleNodes(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleNotch(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6481,6 +8454,11 @@ fun faSolidCircleNotch(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCirclePause(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6497,6 +8475,11 @@ fun faSolidCirclePause(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCirclePause(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6513,6 +8496,11 @@ fun faRegularCirclePause(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCirclePlay(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6529,6 +8517,11 @@ fun faSolidCirclePlay(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCirclePlay(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6545,6 +8538,11 @@ fun faRegularCirclePlay(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCirclePlus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6561,6 +8559,11 @@ fun faSolidCirclePlus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleQuestion(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6577,6 +8580,11 @@ fun faSolidCircleQuestion(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCircleQuestion(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6593,6 +8601,11 @@ fun faRegularCircleQuestion(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleRadiation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6609,6 +8622,11 @@ fun faSolidCircleRadiation(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6625,6 +8643,11 @@ fun faSolidCircleRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCircleRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6641,6 +8664,11 @@ fun faRegularCircleRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleStop(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6657,6 +8685,11 @@ fun faSolidCircleStop(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCircleStop(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6673,6 +8706,11 @@ fun faRegularCircleStop(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6689,6 +8727,11 @@ fun faSolidCircleUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCircleUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6705,6 +8748,11 @@ fun faRegularCircleUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleUser(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6721,6 +8769,11 @@ fun faSolidCircleUser(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCircleUser(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6737,6 +8790,11 @@ fun faRegularCircleUser(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6753,6 +8811,11 @@ fun faSolidCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6769,6 +8832,11 @@ fun faRegularCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCity(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6785,6 +8853,11 @@ fun faSolidCity(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidClapperboard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6801,6 +8874,11 @@ fun faSolidClapperboard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidClipboard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6817,6 +8895,11 @@ fun faSolidClipboard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularClipboard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6833,6 +8916,11 @@ fun faRegularClipboard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidClipboardCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6849,6 +8937,11 @@ fun faSolidClipboardCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidClipboardList(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6865,6 +8958,11 @@ fun faSolidClipboardList(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidClipboardQuestion(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6881,6 +8979,11 @@ fun faSolidClipboardQuestion(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidClipboardUser(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6897,6 +9000,11 @@ fun faSolidClipboardUser(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidClock(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6913,6 +9021,11 @@ fun faSolidClock(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularClock(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6929,6 +9042,11 @@ fun faRegularClock(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidClockRotateLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6945,6 +9063,11 @@ fun faSolidClockRotateLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidClone(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6961,6 +9084,11 @@ fun faSolidClone(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularClone(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6977,6 +9105,11 @@ fun faRegularClone(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidClosedCaptioning(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -6993,6 +9126,11 @@ fun faSolidClosedCaptioning(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularClosedCaptioning(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7009,6 +9147,11 @@ fun faRegularClosedCaptioning(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCloud(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7025,6 +9168,11 @@ fun faSolidCloud(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCloudArrowDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7041,6 +9189,11 @@ fun faSolidCloudArrowDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCloudArrowUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7057,6 +9210,11 @@ fun faSolidCloudArrowUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCloudBolt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7073,6 +9231,11 @@ fun faSolidCloudBolt(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCloudMeatball(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7089,6 +9252,11 @@ fun faSolidCloudMeatball(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCloudMoon(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7105,6 +9273,11 @@ fun faSolidCloudMoon(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCloudMoonRain(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7121,6 +9294,11 @@ fun faSolidCloudMoonRain(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCloudRain(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7137,6 +9315,11 @@ fun faSolidCloudRain(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCloudShowersHeavy(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7153,6 +9336,11 @@ fun faSolidCloudShowersHeavy(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCloudShowersWater(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7169,6 +9357,11 @@ fun faSolidCloudShowersWater(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCloudSun(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7185,6 +9378,11 @@ fun faSolidCloudSun(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCloudSunRain(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7201,6 +9399,11 @@ fun faSolidCloudSunRain(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCloudflare(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7217,6 +9420,11 @@ fun faBrandsCloudflare(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCloudscale(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7233,6 +9441,11 @@ fun faBrandsCloudscale(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCloudsmith(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 332 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7249,6 +9462,11 @@ fun faBrandsCloudsmith(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCloudversify(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 616 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7265,6 +9483,11 @@ fun faBrandsCloudversify(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidClover(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7281,6 +9504,11 @@ fun faSolidClover(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCmplid(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7297,6 +9525,11 @@ fun faBrandsCmplid(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCode(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7313,6 +9546,11 @@ fun faSolidCode(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCodeBranch(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7329,6 +9567,11 @@ fun faSolidCodeBranch(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCodeCommit(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7345,6 +9588,11 @@ fun faSolidCodeCommit(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCodeCompare(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7361,6 +9609,11 @@ fun faSolidCodeCompare(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCodeFork(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7377,6 +9630,11 @@ fun faSolidCodeFork(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCodeMerge(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7393,6 +9651,11 @@ fun faSolidCodeMerge(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCodePullRequest(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7409,6 +9672,11 @@ fun faSolidCodePullRequest(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCodepen(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7425,6 +9693,11 @@ fun faBrandsCodepen(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCodiepie(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 472 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7441,6 +9714,11 @@ fun faBrandsCodiepie(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCoins(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7457,6 +9735,11 @@ fun faSolidCoins(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidColonSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7473,6 +9756,11 @@ fun faSolidColonSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidComment(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7489,6 +9777,11 @@ fun faSolidComment(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularComment(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7505,6 +9798,11 @@ fun faRegularComment(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCommentDollar(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7521,6 +9819,11 @@ fun faSolidCommentDollar(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCommentDots(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7537,6 +9840,11 @@ fun faSolidCommentDots(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCommentDots(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7553,6 +9861,11 @@ fun faRegularCommentDots(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCommentMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7569,6 +9882,11 @@ fun faSolidCommentMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCommentSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7585,6 +9903,11 @@ fun faSolidCommentSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCommentSms(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7601,6 +9924,11 @@ fun faSolidCommentSms(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidComments(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7617,6 +9945,11 @@ fun faSolidComments(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularComments(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7633,6 +9966,11 @@ fun faRegularComments(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCommentsDollar(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7649,6 +9987,11 @@ fun faSolidCommentsDollar(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCompactDisc(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7665,6 +10008,11 @@ fun faSolidCompactDisc(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCompass(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7681,6 +10029,11 @@ fun faSolidCompass(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCompass(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7697,6 +10050,11 @@ fun faRegularCompass(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCompassDrafting(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7713,6 +10071,11 @@ fun faSolidCompassDrafting(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCompress(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7729,6 +10092,11 @@ fun faSolidCompress(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidComputer(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7745,6 +10113,11 @@ fun faSolidComputer(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidComputerMouse(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7761,6 +10134,11 @@ fun faSolidComputerMouse(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsConfluence(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7777,6 +10155,11 @@ fun faBrandsConfluence(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsConnectdevelop(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7793,6 +10176,11 @@ fun faBrandsConnectdevelop(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsContao(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7809,6 +10197,11 @@ fun faBrandsContao(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCookie(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7825,6 +10218,11 @@ fun faSolidCookie(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCookieBite(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7841,6 +10239,11 @@ fun faSolidCookieBite(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCopy(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7857,6 +10260,11 @@ fun faSolidCopy(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCopy(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7873,6 +10281,11 @@ fun faRegularCopy(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCopyright(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7889,6 +10302,11 @@ fun faSolidCopyright(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCopyright(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7905,6 +10323,11 @@ fun faRegularCopyright(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCottonBureau(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7921,6 +10344,11 @@ fun faBrandsCottonBureau(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCouch(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7937,6 +10365,11 @@ fun faSolidCouch(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCow(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7953,6 +10386,11 @@ fun faSolidCow(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCpanel(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7969,6 +10407,11 @@ fun faBrandsCpanel(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCreativeCommons(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -7985,6 +10428,11 @@ fun faBrandsCreativeCommons(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCreativeCommonsBy(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8001,6 +10449,11 @@ fun faBrandsCreativeCommonsBy(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCreativeCommonsNc(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8017,6 +10470,11 @@ fun faBrandsCreativeCommonsNc(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCreativeCommonsNcEu(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8033,6 +10491,11 @@ fun faBrandsCreativeCommonsNcEu(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCreativeCommonsNcJp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8049,6 +10512,11 @@ fun faBrandsCreativeCommonsNcJp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCreativeCommonsNd(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8065,6 +10533,11 @@ fun faBrandsCreativeCommonsNd(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCreativeCommonsPd(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8081,6 +10554,11 @@ fun faBrandsCreativeCommonsPd(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCreativeCommonsPdAlt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8097,6 +10575,11 @@ fun faBrandsCreativeCommonsPdAlt(attrs: AttrBuilderContext<SVGElement>? = null) 
 @Composable
 fun faBrandsCreativeCommonsRemix(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8113,6 +10596,11 @@ fun faBrandsCreativeCommonsRemix(attrs: AttrBuilderContext<SVGElement>? = null) 
 @Composable
 fun faBrandsCreativeCommonsSa(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8129,6 +10617,11 @@ fun faBrandsCreativeCommonsSa(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCreativeCommonsSampling(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8145,6 +10638,11 @@ fun faBrandsCreativeCommonsSampling(attrs: AttrBuilderContext<SVGElement>? = nul
 @Composable
 fun faBrandsCreativeCommonsSamplingPlus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8161,6 +10659,11 @@ fun faBrandsCreativeCommonsSamplingPlus(attrs: AttrBuilderContext<SVGElement>? =
 @Composable
 fun faBrandsCreativeCommonsShare(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8177,6 +10680,11 @@ fun faBrandsCreativeCommonsShare(attrs: AttrBuilderContext<SVGElement>? = null) 
 @Composable
 fun faBrandsCreativeCommonsZero(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8193,6 +10701,11 @@ fun faBrandsCreativeCommonsZero(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCreditCard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8209,6 +10722,11 @@ fun faSolidCreditCard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularCreditCard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8225,6 +10743,11 @@ fun faRegularCreditCard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCriticalRole(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8241,6 +10764,11 @@ fun faBrandsCriticalRole(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCrop(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8257,6 +10785,11 @@ fun faSolidCrop(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCropSimple(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8273,6 +10806,11 @@ fun faSolidCropSimple(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCross(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8289,6 +10827,11 @@ fun faSolidCross(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCrosshairs(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8305,6 +10848,11 @@ fun faSolidCrosshairs(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCrow(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8321,6 +10869,11 @@ fun faSolidCrow(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCrown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8337,6 +10890,11 @@ fun faSolidCrown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCrutch(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8353,6 +10911,11 @@ fun faSolidCrutch(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCruzeiroSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8369,6 +10932,11 @@ fun faSolidCruzeiroSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCss3(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8385,6 +10953,11 @@ fun faBrandsCss3(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCss3Alt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8401,6 +10974,11 @@ fun faBrandsCss3Alt(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCube(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8417,6 +10995,11 @@ fun faSolidCube(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCubes(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8433,6 +11016,11 @@ fun faSolidCubes(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidCubesStacked(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8449,6 +11037,11 @@ fun faSolidCubesStacked(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsCuttlefish(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 440 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8465,6 +11058,11 @@ fun faBrandsCuttlefish(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidD(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8481,6 +11079,11 @@ fun faSolidD(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDAndD(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8497,6 +11100,11 @@ fun faBrandsDAndD(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDAndDBeyond(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8513,6 +11121,11 @@ fun faBrandsDAndDBeyond(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDailymotion(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8529,6 +11142,11 @@ fun faBrandsDailymotion(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDashcube(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8545,6 +11163,11 @@ fun faBrandsDashcube(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDatabase(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8561,6 +11184,11 @@ fun faSolidDatabase(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDeezer(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8577,6 +11205,11 @@ fun faBrandsDeezer(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDeleteLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8593,6 +11226,11 @@ fun faSolidDeleteLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDelicious(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8609,6 +11247,11 @@ fun faBrandsDelicious(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDemocrat(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8625,6 +11268,11 @@ fun faSolidDemocrat(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDeploydog(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8641,6 +11289,11 @@ fun faBrandsDeploydog(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDeskpro(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 480 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8657,6 +11310,11 @@ fun faBrandsDeskpro(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDesktop(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8673,6 +11331,11 @@ fun faSolidDesktop(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDev(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8689,6 +11352,11 @@ fun faBrandsDev(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDeviantart(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8705,6 +11373,11 @@ fun faBrandsDeviantart(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDharmachakra(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8721,6 +11394,11 @@ fun faSolidDharmachakra(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDhl(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8737,6 +11415,11 @@ fun faBrandsDhl(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDiagramNext(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8753,6 +11436,11 @@ fun faSolidDiagramNext(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDiagramPredecessor(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8769,6 +11457,11 @@ fun faSolidDiagramPredecessor(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDiagramProject(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8785,6 +11478,11 @@ fun faSolidDiagramProject(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDiagramSuccessor(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8801,6 +11499,11 @@ fun faSolidDiagramSuccessor(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDiamond(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8817,6 +11520,11 @@ fun faSolidDiamond(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDiamondTurnRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8833,6 +11541,11 @@ fun faSolidDiamondTurnRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDiaspora(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8849,6 +11562,11 @@ fun faBrandsDiaspora(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDice(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8865,6 +11583,11 @@ fun faSolidDice(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDiceD20(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8881,6 +11604,11 @@ fun faSolidDiceD20(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDiceD6(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8897,6 +11625,11 @@ fun faSolidDiceD6(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDiceFive(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8913,6 +11646,11 @@ fun faSolidDiceFive(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDiceFour(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8929,6 +11667,11 @@ fun faSolidDiceFour(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDiceOne(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8945,6 +11688,11 @@ fun faSolidDiceOne(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDiceSix(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8961,6 +11709,11 @@ fun faSolidDiceSix(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDiceThree(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8977,6 +11730,11 @@ fun faSolidDiceThree(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDiceTwo(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -8993,6 +11751,11 @@ fun faSolidDiceTwo(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDigg(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9009,6 +11772,11 @@ fun faBrandsDigg(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDigitalOcean(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9025,6 +11793,11 @@ fun faBrandsDigitalOcean(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDiscord(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9041,6 +11814,11 @@ fun faBrandsDiscord(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDiscourse(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9057,6 +11835,11 @@ fun faBrandsDiscourse(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDisease(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9073,6 +11856,11 @@ fun faSolidDisease(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDisplay(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9089,6 +11877,11 @@ fun faSolidDisplay(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDivide(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9105,6 +11898,11 @@ fun faSolidDivide(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDna(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9121,6 +11919,11 @@ fun faSolidDna(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDochub(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 416 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9137,6 +11940,11 @@ fun faBrandsDochub(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDocker(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9153,6 +11961,11 @@ fun faBrandsDocker(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDog(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9169,6 +11982,11 @@ fun faSolidDog(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDollarSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9185,6 +12003,11 @@ fun faSolidDollarSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDolly(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9201,6 +12024,11 @@ fun faSolidDolly(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDongSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9217,6 +12045,11 @@ fun faSolidDongSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDoorClosed(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9233,6 +12066,11 @@ fun faSolidDoorClosed(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDoorOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9249,6 +12087,11 @@ fun faSolidDoorOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDove(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9265,6 +12108,11 @@ fun faSolidDove(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDownLeftAndUpRightToCenter(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9281,6 +12129,11 @@ fun faSolidDownLeftAndUpRightToCenter(attrs: AttrBuilderContext<SVGElement>? = n
 @Composable
 fun faSolidDownLong(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9297,6 +12150,11 @@ fun faSolidDownLong(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDownload(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9313,6 +12171,11 @@ fun faSolidDownload(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDraft2digital(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 480 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9329,6 +12192,11 @@ fun faBrandsDraft2digital(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDragon(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9345,6 +12213,11 @@ fun faSolidDragon(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDrawPolygon(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9361,6 +12234,11 @@ fun faSolidDrawPolygon(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDribbble(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9377,6 +12255,11 @@ fun faBrandsDribbble(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDropbox(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 528 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9393,6 +12276,11 @@ fun faBrandsDropbox(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDroplet(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9409,6 +12297,11 @@ fun faSolidDroplet(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDropletSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9425,6 +12318,11 @@ fun faSolidDropletSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDrum(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9441,6 +12339,11 @@ fun faSolidDrum(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDrumSteelpan(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9457,6 +12360,11 @@ fun faSolidDrumSteelpan(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDrumstickBite(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9473,6 +12381,11 @@ fun faSolidDrumstickBite(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDrupal(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9489,6 +12402,11 @@ fun faBrandsDrupal(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDumbbell(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9505,6 +12423,11 @@ fun faSolidDumbbell(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDumpster(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9521,6 +12444,11 @@ fun faSolidDumpster(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDumpsterFire(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9537,6 +12465,11 @@ fun faSolidDumpsterFire(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidDungeon(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9553,6 +12486,11 @@ fun faSolidDungeon(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsDyalog(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 416 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9569,6 +12507,11 @@ fun faBrandsDyalog(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidE(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9585,6 +12528,11 @@ fun faSolidE(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEarDeaf(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9601,6 +12549,11 @@ fun faSolidEarDeaf(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEarListen(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9617,6 +12570,11 @@ fun faSolidEarListen(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsEarlybirds(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 480 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9633,6 +12591,11 @@ fun faBrandsEarlybirds(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEarthAfrica(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9649,6 +12612,11 @@ fun faSolidEarthAfrica(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEarthAmericas(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9665,6 +12633,11 @@ fun faSolidEarthAmericas(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEarthAsia(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9681,6 +12654,11 @@ fun faSolidEarthAsia(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEarthEurope(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9697,6 +12675,11 @@ fun faSolidEarthEurope(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEarthOceania(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9713,6 +12696,11 @@ fun faSolidEarthOceania(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsEbay(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9729,6 +12717,11 @@ fun faBrandsEbay(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsEdge(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9745,6 +12738,11 @@ fun faBrandsEdge(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsEdgeLegacy(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9761,6 +12759,11 @@ fun faBrandsEdgeLegacy(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEgg(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9777,6 +12780,11 @@ fun faSolidEgg(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEject(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9793,6 +12801,11 @@ fun faSolidEject(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsElementor(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9809,6 +12822,11 @@ fun faBrandsElementor(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidElevator(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9825,6 +12843,11 @@ fun faSolidElevator(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEllipsis(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9841,6 +12864,11 @@ fun faSolidEllipsis(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEllipsisVertical(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 128 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9857,6 +12885,11 @@ fun faSolidEllipsisVertical(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsEllo(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9873,6 +12906,11 @@ fun faBrandsEllo(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsEmber(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9889,6 +12927,11 @@ fun faBrandsEmber(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsEmpire(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9905,6 +12948,11 @@ fun faBrandsEmpire(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEnvelope(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9921,6 +12969,11 @@ fun faSolidEnvelope(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularEnvelope(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9937,6 +12990,11 @@ fun faRegularEnvelope(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEnvelopeCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9953,6 +13011,11 @@ fun faSolidEnvelopeCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEnvelopeOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9969,6 +13032,11 @@ fun faSolidEnvelopeOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularEnvelopeOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -9985,6 +13053,11 @@ fun faRegularEnvelopeOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEnvelopeOpenText(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10001,6 +13074,11 @@ fun faSolidEnvelopeOpenText(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEnvelopesBulk(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10017,6 +13095,11 @@ fun faSolidEnvelopesBulk(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsEnvira(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10033,6 +13116,11 @@ fun faBrandsEnvira(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEquals(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10049,6 +13137,11 @@ fun faSolidEquals(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEraser(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10065,6 +13158,11 @@ fun faSolidEraser(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsErlang(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10081,6 +13179,11 @@ fun faBrandsErlang(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsEthereum(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10097,6 +13200,11 @@ fun faBrandsEthereum(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEthernet(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10113,6 +13221,11 @@ fun faSolidEthernet(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsEtsy(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10129,6 +13242,11 @@ fun faBrandsEtsy(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEuroSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10145,6 +13263,11 @@ fun faSolidEuroSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsEvernote(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10161,6 +13284,11 @@ fun faBrandsEvernote(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidExclamation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 128 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10177,6 +13305,11 @@ fun faSolidExclamation(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidExpand(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10193,6 +13326,11 @@ fun faSolidExpand(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsExpeditedssl(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10209,6 +13347,11 @@ fun faBrandsExpeditedssl(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidExplosion(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10225,6 +13368,11 @@ fun faSolidExplosion(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEye(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10241,6 +13389,11 @@ fun faSolidEye(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularEye(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10257,6 +13410,11 @@ fun faRegularEye(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEyeDropper(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10273,6 +13431,11 @@ fun faSolidEyeDropper(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEyeLowVision(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10289,6 +13452,11 @@ fun faSolidEyeLowVision(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidEyeSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10305,6 +13473,11 @@ fun faSolidEyeSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularEyeSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10321,6 +13494,11 @@ fun faRegularEyeSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidF(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10337,6 +13515,11 @@ fun faSolidF(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceAngry(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10353,6 +13536,11 @@ fun faSolidFaceAngry(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceAngry(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10369,6 +13557,11 @@ fun faRegularFaceAngry(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceDizzy(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10385,6 +13578,11 @@ fun faSolidFaceDizzy(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceDizzy(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10401,6 +13599,11 @@ fun faRegularFaceDizzy(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceFlushed(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10417,6 +13620,11 @@ fun faSolidFaceFlushed(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceFlushed(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10433,6 +13641,11 @@ fun faRegularFaceFlushed(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceFrown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10449,6 +13662,11 @@ fun faSolidFaceFrown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceFrown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10465,6 +13683,11 @@ fun faRegularFaceFrown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceFrownOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10481,6 +13704,11 @@ fun faSolidFaceFrownOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceFrownOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10497,6 +13725,11 @@ fun faRegularFaceFrownOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceGrimace(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10513,6 +13746,11 @@ fun faSolidFaceGrimace(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceGrimace(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10529,6 +13767,11 @@ fun faRegularFaceGrimace(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceGrin(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10545,6 +13788,11 @@ fun faSolidFaceGrin(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceGrin(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10561,6 +13809,11 @@ fun faRegularFaceGrin(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceGrinBeam(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10577,6 +13830,11 @@ fun faSolidFaceGrinBeam(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceGrinBeam(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10593,6 +13851,11 @@ fun faRegularFaceGrinBeam(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceGrinBeamSweat(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10609,6 +13872,11 @@ fun faSolidFaceGrinBeamSweat(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceGrinBeamSweat(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10625,6 +13893,11 @@ fun faRegularFaceGrinBeamSweat(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceGrinHearts(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10641,6 +13914,11 @@ fun faSolidFaceGrinHearts(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceGrinHearts(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10657,6 +13935,11 @@ fun faRegularFaceGrinHearts(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceGrinSquint(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10673,6 +13956,11 @@ fun faSolidFaceGrinSquint(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceGrinSquint(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10689,6 +13977,11 @@ fun faRegularFaceGrinSquint(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceGrinSquintTears(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10705,6 +13998,11 @@ fun faSolidFaceGrinSquintTears(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceGrinSquintTears(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10721,6 +14019,11 @@ fun faRegularFaceGrinSquintTears(attrs: AttrBuilderContext<SVGElement>? = null) 
 @Composable
 fun faSolidFaceGrinStars(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10737,6 +14040,11 @@ fun faSolidFaceGrinStars(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceGrinStars(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10753,6 +14061,11 @@ fun faRegularFaceGrinStars(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceGrinTears(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10769,6 +14082,11 @@ fun faSolidFaceGrinTears(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceGrinTears(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10785,6 +14103,11 @@ fun faRegularFaceGrinTears(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceGrinTongue(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10801,6 +14124,11 @@ fun faSolidFaceGrinTongue(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceGrinTongue(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10817,6 +14145,11 @@ fun faRegularFaceGrinTongue(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceGrinTongueSquint(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10833,6 +14166,11 @@ fun faSolidFaceGrinTongueSquint(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceGrinTongueSquint(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10849,6 +14187,11 @@ fun faRegularFaceGrinTongueSquint(attrs: AttrBuilderContext<SVGElement>? = null)
 @Composable
 fun faSolidFaceGrinTongueWink(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10865,6 +14208,11 @@ fun faSolidFaceGrinTongueWink(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceGrinTongueWink(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10881,6 +14229,11 @@ fun faRegularFaceGrinTongueWink(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceGrinWide(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10897,6 +14250,11 @@ fun faSolidFaceGrinWide(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceGrinWide(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10913,6 +14271,11 @@ fun faRegularFaceGrinWide(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceGrinWink(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10929,6 +14292,11 @@ fun faSolidFaceGrinWink(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceGrinWink(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10945,6 +14313,11 @@ fun faRegularFaceGrinWink(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceKiss(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10961,6 +14334,11 @@ fun faSolidFaceKiss(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceKiss(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10977,6 +14355,11 @@ fun faRegularFaceKiss(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceKissBeam(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -10993,6 +14376,11 @@ fun faSolidFaceKissBeam(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceKissBeam(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11009,6 +14397,11 @@ fun faRegularFaceKissBeam(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceKissWinkHeart(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11025,6 +14418,11 @@ fun faSolidFaceKissWinkHeart(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceKissWinkHeart(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11041,6 +14439,11 @@ fun faRegularFaceKissWinkHeart(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceLaugh(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11057,6 +14460,11 @@ fun faSolidFaceLaugh(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceLaugh(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11073,6 +14481,11 @@ fun faRegularFaceLaugh(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceLaughBeam(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11089,6 +14502,11 @@ fun faSolidFaceLaughBeam(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceLaughBeam(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11105,6 +14523,11 @@ fun faRegularFaceLaughBeam(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceLaughSquint(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11121,6 +14544,11 @@ fun faSolidFaceLaughSquint(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceLaughSquint(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11137,6 +14565,11 @@ fun faRegularFaceLaughSquint(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceLaughWink(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11153,6 +14586,11 @@ fun faSolidFaceLaughWink(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceLaughWink(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11169,6 +14607,11 @@ fun faRegularFaceLaughWink(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceMeh(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11185,6 +14628,11 @@ fun faSolidFaceMeh(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceMeh(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11201,6 +14649,11 @@ fun faRegularFaceMeh(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceMehBlank(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11217,6 +14670,11 @@ fun faSolidFaceMehBlank(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceMehBlank(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11233,6 +14691,11 @@ fun faRegularFaceMehBlank(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceRollingEyes(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11249,6 +14712,11 @@ fun faSolidFaceRollingEyes(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceRollingEyes(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11265,6 +14733,11 @@ fun faRegularFaceRollingEyes(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceSadCry(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11281,6 +14754,11 @@ fun faSolidFaceSadCry(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceSadCry(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11297,6 +14775,11 @@ fun faRegularFaceSadCry(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceSadTear(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11313,6 +14796,11 @@ fun faSolidFaceSadTear(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceSadTear(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11329,6 +14817,11 @@ fun faRegularFaceSadTear(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceSmile(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11345,6 +14838,11 @@ fun faSolidFaceSmile(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceSmile(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11361,6 +14859,11 @@ fun faRegularFaceSmile(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceSmileBeam(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11377,6 +14880,11 @@ fun faSolidFaceSmileBeam(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceSmileBeam(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11393,6 +14901,11 @@ fun faRegularFaceSmileBeam(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceSmileWink(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11409,6 +14922,11 @@ fun faSolidFaceSmileWink(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceSmileWink(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11425,6 +14943,11 @@ fun faRegularFaceSmileWink(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceSurprise(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11441,6 +14964,11 @@ fun faSolidFaceSurprise(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceSurprise(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11457,6 +14985,11 @@ fun faRegularFaceSurprise(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaceTired(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11473,6 +15006,11 @@ fun faSolidFaceTired(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFaceTired(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11489,6 +15027,11 @@ fun faRegularFaceTired(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFacebook(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11505,6 +15048,11 @@ fun faBrandsFacebook(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFacebookF(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11521,6 +15069,11 @@ fun faBrandsFacebookF(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFacebookMessenger(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11537,6 +15090,11 @@ fun faBrandsFacebookMessenger(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFan(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11553,6 +15111,11 @@ fun faSolidFan(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFantasyFlightGames(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11569,6 +15132,11 @@ fun faBrandsFantasyFlightGames(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaucet(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11585,6 +15153,11 @@ fun faSolidFaucet(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFaucetDrip(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11601,6 +15174,11 @@ fun faSolidFaucetDrip(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFax(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11617,6 +15195,11 @@ fun faSolidFax(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFeather(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11633,6 +15216,11 @@ fun faSolidFeather(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFeatherPointed(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11649,6 +15237,11 @@ fun faSolidFeatherPointed(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFedex(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11665,6 +15258,11 @@ fun faBrandsFedex(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFedora(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11681,6 +15279,11 @@ fun faBrandsFedora(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFerry(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11697,6 +15300,11 @@ fun faSolidFerry(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFigma(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11713,6 +15321,11 @@ fun faBrandsFigma(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFile(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11729,6 +15342,11 @@ fun faSolidFile(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFile(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11745,6 +15363,11 @@ fun faRegularFile(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileArrowDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11761,6 +15384,11 @@ fun faSolidFileArrowDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileArrowUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11777,6 +15405,11 @@ fun faSolidFileArrowUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileAudio(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11793,6 +15426,11 @@ fun faSolidFileAudio(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFileAudio(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11809,6 +15447,11 @@ fun faRegularFileAudio(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11825,6 +15468,11 @@ fun faSolidFileCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11841,6 +15489,11 @@ fun faSolidFileCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null) 
 @Composable
 fun faSolidFileCircleMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11857,6 +15510,11 @@ fun faSolidFileCircleMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileCirclePlus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11873,6 +15531,11 @@ fun faSolidFileCirclePlus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileCircleQuestion(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11889,6 +15552,11 @@ fun faSolidFileCircleQuestion(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11905,6 +15573,11 @@ fun faSolidFileCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileCode(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11921,6 +15594,11 @@ fun faSolidFileCode(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFileCode(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11937,6 +15615,11 @@ fun faRegularFileCode(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileContract(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11953,6 +15636,11 @@ fun faSolidFileContract(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileCsv(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11969,6 +15657,11 @@ fun faSolidFileCsv(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileExcel(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -11985,6 +15678,11 @@ fun faSolidFileExcel(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFileExcel(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12001,6 +15699,11 @@ fun faRegularFileExcel(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileExport(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12017,6 +15720,11 @@ fun faSolidFileExport(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileImage(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12033,6 +15741,11 @@ fun faSolidFileImage(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFileImage(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12049,6 +15762,11 @@ fun faRegularFileImage(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileImport(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12065,6 +15783,11 @@ fun faSolidFileImport(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileInvoice(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12081,6 +15804,11 @@ fun faSolidFileInvoice(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileInvoiceDollar(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12097,6 +15825,11 @@ fun faSolidFileInvoiceDollar(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileLines(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12113,6 +15846,11 @@ fun faSolidFileLines(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFileLines(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12129,6 +15867,11 @@ fun faRegularFileLines(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12145,6 +15888,11 @@ fun faSolidFileMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFilePdf(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12161,6 +15909,11 @@ fun faSolidFilePdf(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFilePdf(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12177,6 +15930,11 @@ fun faRegularFilePdf(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFilePen(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12193,6 +15951,11 @@ fun faSolidFilePen(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFilePowerpoint(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12209,6 +15972,11 @@ fun faSolidFilePowerpoint(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFilePowerpoint(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12225,6 +15993,11 @@ fun faRegularFilePowerpoint(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFilePrescription(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12241,6 +16014,11 @@ fun faSolidFilePrescription(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileShield(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12257,6 +16035,11 @@ fun faSolidFileShield(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileSignature(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12273,6 +16056,11 @@ fun faSolidFileSignature(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileVideo(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12289,6 +16077,11 @@ fun faSolidFileVideo(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFileVideo(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12305,6 +16098,11 @@ fun faRegularFileVideo(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileWaveform(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12321,6 +16119,11 @@ fun faSolidFileWaveform(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileWord(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12337,6 +16140,11 @@ fun faSolidFileWord(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFileWord(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12353,6 +16161,11 @@ fun faRegularFileWord(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFileZipper(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12369,6 +16182,11 @@ fun faSolidFileZipper(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFileZipper(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12385,6 +16203,11 @@ fun faRegularFileZipper(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFill(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12401,6 +16224,11 @@ fun faSolidFill(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFillDrip(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12417,6 +16245,11 @@ fun faSolidFillDrip(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFilm(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12433,6 +16266,11 @@ fun faSolidFilm(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFilter(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12449,6 +16287,11 @@ fun faSolidFilter(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFilterCircleDollar(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12465,6 +16308,11 @@ fun faSolidFilterCircleDollar(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFilterCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12481,6 +16329,11 @@ fun faSolidFilterCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFingerprint(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12497,6 +16350,11 @@ fun faSolidFingerprint(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFire(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12513,6 +16371,11 @@ fun faSolidFire(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFireBurner(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12529,6 +16392,11 @@ fun faSolidFireBurner(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFireExtinguisher(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12545,6 +16413,11 @@ fun faSolidFireExtinguisher(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFireFlameCurved(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12561,6 +16434,11 @@ fun faSolidFireFlameCurved(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFireFlameSimple(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12577,6 +16455,11 @@ fun faSolidFireFlameSimple(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFirefox(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12593,6 +16476,11 @@ fun faBrandsFirefox(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFirefoxBrowser(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12609,6 +16497,11 @@ fun faBrandsFirefoxBrowser(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFirstOrder(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12625,6 +16518,11 @@ fun faBrandsFirstOrder(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFirstOrderAlt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12641,6 +16539,11 @@ fun faBrandsFirstOrderAlt(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFirstdraft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12657,6 +16560,11 @@ fun faBrandsFirstdraft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFish(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12673,6 +16581,11 @@ fun faSolidFish(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFishFins(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12689,6 +16602,11 @@ fun faSolidFishFins(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFlag(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12705,6 +16623,11 @@ fun faSolidFlag(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFlag(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12721,6 +16644,11 @@ fun faRegularFlag(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFlagCheckered(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12737,6 +16665,11 @@ fun faSolidFlagCheckered(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFlagUsa(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12753,6 +16686,11 @@ fun faSolidFlagUsa(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFlask(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12769,6 +16707,11 @@ fun faSolidFlask(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFlaskVial(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12785,6 +16728,11 @@ fun faSolidFlaskVial(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFlickr(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12801,6 +16749,11 @@ fun faBrandsFlickr(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFlipboard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12817,6 +16770,11 @@ fun faBrandsFlipboard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFloppyDisk(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12833,6 +16791,11 @@ fun faSolidFloppyDisk(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFloppyDisk(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12849,6 +16812,11 @@ fun faRegularFloppyDisk(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFlorinSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12865,6 +16833,11 @@ fun faSolidFlorinSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFly(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12881,6 +16854,11 @@ fun faBrandsFly(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFolder(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12897,6 +16875,11 @@ fun faSolidFolder(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFolder(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12913,6 +16896,11 @@ fun faRegularFolder(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFolderClosed(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12929,6 +16917,11 @@ fun faSolidFolderClosed(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFolderClosed(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12945,6 +16938,11 @@ fun faRegularFolderClosed(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFolderMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12961,6 +16959,11 @@ fun faSolidFolderMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFolderOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12977,6 +16980,11 @@ fun faSolidFolderOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFolderOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -12993,6 +17001,11 @@ fun faRegularFolderOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFolderPlus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13009,6 +17022,11 @@ fun faSolidFolderPlus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFolderTree(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13025,6 +17043,11 @@ fun faSolidFolderTree(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFont(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13041,6 +17064,11 @@ fun faSolidFont(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFontAwesome(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13057,6 +17085,11 @@ fun faSolidFontAwesome(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFontAwesome(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13073,6 +17106,11 @@ fun faRegularFontAwesome(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFontAwesome(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13089,6 +17127,11 @@ fun faBrandsFontAwesome(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFonticons(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13105,6 +17148,11 @@ fun faBrandsFonticons(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFonticonsFi(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13121,6 +17169,11 @@ fun faBrandsFonticonsFi(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFootball(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13137,6 +17190,11 @@ fun faSolidFootball(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFortAwesome(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13153,6 +17211,11 @@ fun faBrandsFortAwesome(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFortAwesomeAlt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13169,6 +17232,11 @@ fun faBrandsFortAwesomeAlt(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsForumbee(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13185,6 +17253,11 @@ fun faBrandsForumbee(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidForward(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13201,6 +17274,11 @@ fun faSolidForward(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidForwardFast(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13217,6 +17295,11 @@ fun faSolidForwardFast(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidForwardStep(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13233,6 +17316,11 @@ fun faSolidForwardStep(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFoursquare(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 368 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13249,6 +17337,11 @@ fun faBrandsFoursquare(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFrancSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13265,6 +17358,11 @@ fun faSolidFrancSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFreeCodeCamp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13281,6 +17379,11 @@ fun faBrandsFreeCodeCamp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFreebsd(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13297,6 +17400,11 @@ fun faBrandsFreebsd(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFrog(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13313,6 +17421,11 @@ fun faSolidFrog(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsFulcrum(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13329,6 +17442,11 @@ fun faBrandsFulcrum(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidFutbol(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13345,6 +17463,11 @@ fun faSolidFutbol(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularFutbol(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13361,6 +17484,11 @@ fun faRegularFutbol(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidG(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13377,6 +17505,11 @@ fun faSolidG(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGalacticRepublic(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13393,6 +17526,11 @@ fun faBrandsGalacticRepublic(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGalacticSenate(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13409,6 +17547,11 @@ fun faBrandsGalacticSenate(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGamepad(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13425,6 +17568,11 @@ fun faSolidGamepad(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGasPump(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13441,6 +17589,11 @@ fun faSolidGasPump(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGauge(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13457,6 +17610,11 @@ fun faSolidGauge(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGaugeHigh(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13473,6 +17631,11 @@ fun faSolidGaugeHigh(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGaugeSimple(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13489,6 +17652,11 @@ fun faSolidGaugeSimple(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGaugeSimpleHigh(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13505,6 +17673,11 @@ fun faSolidGaugeSimpleHigh(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGavel(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13521,6 +17694,11 @@ fun faSolidGavel(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGear(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13537,6 +17715,11 @@ fun faSolidGear(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGears(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13553,6 +17736,11 @@ fun faSolidGears(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGem(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13569,6 +17757,11 @@ fun faSolidGem(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularGem(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13585,6 +17778,11 @@ fun faRegularGem(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGenderless(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13601,6 +17799,11 @@ fun faSolidGenderless(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGetPocket(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13617,6 +17820,11 @@ fun faBrandsGetPocket(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGg(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13633,6 +17841,11 @@ fun faBrandsGg(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGgCircle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13649,6 +17862,11 @@ fun faBrandsGgCircle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGhost(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13665,6 +17883,11 @@ fun faSolidGhost(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGift(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13681,6 +17904,11 @@ fun faSolidGift(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGifts(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13697,6 +17925,11 @@ fun faSolidGifts(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGit(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13713,6 +17946,11 @@ fun faBrandsGit(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGitAlt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13729,6 +17967,11 @@ fun faBrandsGitAlt(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGithub(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13745,6 +17988,11 @@ fun faBrandsGithub(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGithubAlt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 480 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13761,6 +18009,11 @@ fun faBrandsGithubAlt(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGitkraken(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 592 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13777,6 +18030,11 @@ fun faBrandsGitkraken(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGitlab(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13793,6 +18051,11 @@ fun faBrandsGitlab(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGitter(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13809,6 +18072,11 @@ fun faBrandsGitter(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGlassWater(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13825,6 +18093,11 @@ fun faSolidGlassWater(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGlassWaterDroplet(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13841,6 +18114,11 @@ fun faSolidGlassWaterDroplet(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGlasses(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13857,6 +18135,11 @@ fun faSolidGlasses(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGlide(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13873,6 +18156,11 @@ fun faBrandsGlide(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGlideG(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13889,6 +18177,11 @@ fun faBrandsGlideG(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGlobe(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13905,6 +18198,11 @@ fun faSolidGlobe(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGofore(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 400 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13921,6 +18219,11 @@ fun faBrandsGofore(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGolang(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13937,6 +18240,11 @@ fun faBrandsGolang(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGolfBallTee(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13953,6 +18261,11 @@ fun faSolidGolfBallTee(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGoodreads(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13969,6 +18282,11 @@ fun faBrandsGoodreads(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGoodreadsG(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -13985,6 +18303,11 @@ fun faBrandsGoodreadsG(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGoogle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 488 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14001,6 +18324,11 @@ fun faBrandsGoogle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGoogleDrive(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14017,6 +18345,11 @@ fun faBrandsGoogleDrive(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGooglePay(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14033,6 +18366,11 @@ fun faBrandsGooglePay(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGooglePlay(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14049,6 +18387,11 @@ fun faBrandsGooglePlay(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGooglePlus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14065,6 +18408,11 @@ fun faBrandsGooglePlus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGooglePlusG(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14081,6 +18429,11 @@ fun faBrandsGooglePlusG(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGoogleWallet(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14097,6 +18450,11 @@ fun faBrandsGoogleWallet(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGopuram(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14113,6 +18471,11 @@ fun faSolidGopuram(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGraduationCap(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14129,6 +18492,11 @@ fun faSolidGraduationCap(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGratipay(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14145,6 +18513,11 @@ fun faBrandsGratipay(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGrav(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14161,6 +18534,11 @@ fun faBrandsGrav(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGreaterThan(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14177,6 +18555,11 @@ fun faSolidGreaterThan(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGreaterThanEqual(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14193,6 +18576,11 @@ fun faSolidGreaterThanEqual(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGrip(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14209,6 +18597,11 @@ fun faSolidGrip(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGripLines(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14225,6 +18618,11 @@ fun faSolidGripLines(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGripLinesVertical(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 192 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14241,6 +18639,11 @@ fun faSolidGripLinesVertical(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGripVertical(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14257,6 +18660,11 @@ fun faSolidGripVertical(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGripfire(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14273,6 +18681,11 @@ fun faBrandsGripfire(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGroupArrowsRotate(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14289,6 +18702,11 @@ fun faSolidGroupArrowsRotate(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGrunt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14305,6 +18723,11 @@ fun faBrandsGrunt(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGuaraniSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14321,6 +18744,11 @@ fun faSolidGuaraniSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGuilded(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14337,6 +18765,11 @@ fun faBrandsGuilded(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGuitar(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14353,6 +18786,11 @@ fun faSolidGuitar(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsGulp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 256 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14369,6 +18807,11 @@ fun faBrandsGulp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidGun(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14385,6 +18828,11 @@ fun faSolidGun(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidH(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14401,6 +18849,11 @@ fun faSolidH(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsHackerNews(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14417,6 +18870,11 @@ fun faBrandsHackerNews(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsHackerrank(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14433,6 +18891,11 @@ fun faBrandsHackerrank(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHammer(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14449,6 +18912,11 @@ fun faSolidHammer(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHamsa(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14465,6 +18933,11 @@ fun faSolidHamsa(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHand(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14481,6 +18954,11 @@ fun faSolidHand(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularHand(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14497,6 +18975,11 @@ fun faRegularHand(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandBackFist(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14513,6 +18996,11 @@ fun faSolidHandBackFist(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularHandBackFist(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14529,6 +19017,11 @@ fun faRegularHandBackFist(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandDots(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14545,6 +19038,11 @@ fun faSolidHandDots(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandFist(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14561,6 +19059,11 @@ fun faSolidHandFist(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandHolding(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14577,6 +19080,11 @@ fun faSolidHandHolding(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandHoldingDollar(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14593,6 +19101,11 @@ fun faSolidHandHoldingDollar(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandHoldingDroplet(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14609,6 +19122,11 @@ fun faSolidHandHoldingDroplet(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandHoldingHand(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14625,6 +19143,11 @@ fun faSolidHandHoldingHand(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandHoldingHeart(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14641,6 +19164,11 @@ fun faSolidHandHoldingHeart(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandHoldingMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14657,6 +19185,11 @@ fun faSolidHandHoldingMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandLizard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14673,6 +19206,11 @@ fun faSolidHandLizard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularHandLizard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14689,6 +19227,11 @@ fun faRegularHandLizard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandMiddleFinger(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14705,6 +19248,11 @@ fun faSolidHandMiddleFinger(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandPeace(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14721,6 +19269,11 @@ fun faSolidHandPeace(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularHandPeace(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14737,6 +19290,11 @@ fun faRegularHandPeace(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandPointDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14753,6 +19311,11 @@ fun faSolidHandPointDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularHandPointDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14769,6 +19332,11 @@ fun faRegularHandPointDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandPointLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14785,6 +19353,11 @@ fun faSolidHandPointLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularHandPointLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14801,6 +19374,11 @@ fun faRegularHandPointLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandPointRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14817,6 +19395,11 @@ fun faSolidHandPointRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularHandPointRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14833,6 +19416,11 @@ fun faRegularHandPointRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandPointUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14849,6 +19437,11 @@ fun faSolidHandPointUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularHandPointUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14865,6 +19458,11 @@ fun faRegularHandPointUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandPointer(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14881,6 +19479,11 @@ fun faSolidHandPointer(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularHandPointer(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14897,6 +19500,11 @@ fun faRegularHandPointer(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandScissors(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14913,6 +19521,11 @@ fun faSolidHandScissors(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularHandScissors(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14929,6 +19542,11 @@ fun faRegularHandScissors(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandSparkles(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14945,6 +19563,11 @@ fun faSolidHandSparkles(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandSpock(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14961,6 +19584,11 @@ fun faSolidHandSpock(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularHandSpock(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14977,6 +19605,11 @@ fun faRegularHandSpock(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandcuffs(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -14993,6 +19626,11 @@ fun faSolidHandcuffs(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHands(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15009,6 +19647,11 @@ fun faSolidHands(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandsAslInterpreting(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15025,6 +19668,11 @@ fun faSolidHandsAslInterpreting(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandsBound(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15041,6 +19689,11 @@ fun faSolidHandsBound(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandsBubbles(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15057,6 +19710,11 @@ fun faSolidHandsBubbles(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandsClapping(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15073,6 +19731,11 @@ fun faSolidHandsClapping(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandsHolding(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15089,6 +19752,11 @@ fun faSolidHandsHolding(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandsHoldingChild(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15105,6 +19773,11 @@ fun faSolidHandsHoldingChild(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandsHoldingCircle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15121,6 +19794,11 @@ fun faSolidHandsHoldingCircle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandsPraying(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15137,6 +19815,11 @@ fun faSolidHandsPraying(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandshake(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15153,6 +19836,11 @@ fun faSolidHandshake(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularHandshake(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15169,6 +19857,11 @@ fun faRegularHandshake(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandshakeAngle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15185,6 +19878,11 @@ fun faSolidHandshakeAngle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandshakeSimple(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15201,6 +19899,11 @@ fun faSolidHandshakeSimple(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandshakeSimpleSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15217,6 +19920,11 @@ fun faSolidHandshakeSimpleSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHandshakeSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15233,6 +19941,11 @@ fun faSolidHandshakeSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHanukiah(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15249,6 +19962,11 @@ fun faSolidHanukiah(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHardDrive(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15265,6 +19983,11 @@ fun faSolidHardDrive(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularHardDrive(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15281,6 +20004,11 @@ fun faRegularHardDrive(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsHashnode(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15297,6 +20025,11 @@ fun faBrandsHashnode(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHashtag(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15313,6 +20046,11 @@ fun faSolidHashtag(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHatCowboy(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15329,6 +20067,11 @@ fun faSolidHatCowboy(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHatCowboySide(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15345,6 +20088,11 @@ fun faSolidHatCowboySide(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHatWizard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15361,6 +20109,11 @@ fun faSolidHatWizard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHeadSideCough(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15377,6 +20130,11 @@ fun faSolidHeadSideCough(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHeadSideCoughSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15393,6 +20151,11 @@ fun faSolidHeadSideCoughSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHeadSideMask(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15409,6 +20172,11 @@ fun faSolidHeadSideMask(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHeadSideVirus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15425,6 +20193,11 @@ fun faSolidHeadSideVirus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHeading(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15441,6 +20214,11 @@ fun faSolidHeading(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHeadphones(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15457,6 +20235,11 @@ fun faSolidHeadphones(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHeadphonesSimple(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15473,6 +20256,11 @@ fun faSolidHeadphonesSimple(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHeadset(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15489,6 +20277,11 @@ fun faSolidHeadset(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHeart(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15505,6 +20298,11 @@ fun faSolidHeart(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularHeart(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15521,6 +20319,11 @@ fun faRegularHeart(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHeartCircleBolt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15537,6 +20340,11 @@ fun faSolidHeartCircleBolt(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHeartCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15553,6 +20361,11 @@ fun faSolidHeartCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHeartCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15569,6 +20382,11 @@ fun faSolidHeartCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null)
 @Composable
 fun faSolidHeartCircleMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15585,6 +20403,11 @@ fun faSolidHeartCircleMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHeartCirclePlus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15601,6 +20424,11 @@ fun faSolidHeartCirclePlus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHeartCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15617,6 +20445,11 @@ fun faSolidHeartCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHeartCrack(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15633,6 +20466,11 @@ fun faSolidHeartCrack(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHeartPulse(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15649,6 +20487,11 @@ fun faSolidHeartPulse(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHelicopter(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15665,6 +20508,11 @@ fun faSolidHelicopter(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHelicopterSymbol(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15681,6 +20529,11 @@ fun faSolidHelicopterSymbol(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHelmetSafety(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15697,6 +20550,11 @@ fun faSolidHelmetSafety(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHelmetUn(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15713,6 +20571,11 @@ fun faSolidHelmetUn(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHighlighter(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15729,6 +20592,11 @@ fun faSolidHighlighter(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHillAvalanche(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15745,6 +20613,11 @@ fun faSolidHillAvalanche(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHillRockslide(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15761,6 +20634,11 @@ fun faSolidHillRockslide(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHippo(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15777,6 +20655,11 @@ fun faSolidHippo(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsHips(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15793,6 +20676,11 @@ fun faBrandsHips(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsHireAHelper(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15809,6 +20697,11 @@ fun faBrandsHireAHelper(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsHive(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15825,6 +20718,11 @@ fun faBrandsHive(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHockeyPuck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15841,6 +20739,11 @@ fun faSolidHockeyPuck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHollyBerry(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15857,6 +20760,11 @@ fun faSolidHollyBerry(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsHooli(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15873,6 +20781,11 @@ fun faBrandsHooli(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsHornbill(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15889,6 +20802,11 @@ fun faBrandsHornbill(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHorse(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15905,6 +20823,11 @@ fun faSolidHorse(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHorseHead(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15921,6 +20844,11 @@ fun faSolidHorseHead(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHospital(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15937,6 +20865,11 @@ fun faSolidHospital(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularHospital(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15953,6 +20886,11 @@ fun faRegularHospital(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHospitalUser(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15969,6 +20907,11 @@ fun faSolidHospitalUser(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHotTubPerson(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -15985,6 +20928,11 @@ fun faSolidHotTubPerson(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHotdog(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16001,6 +20949,11 @@ fun faSolidHotdog(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHotel(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16017,6 +20970,11 @@ fun faSolidHotel(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsHotjar(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16033,6 +20991,11 @@ fun faBrandsHotjar(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHourglass(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16049,6 +21012,11 @@ fun faSolidHourglass(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularHourglass(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16065,6 +21033,11 @@ fun faRegularHourglass(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHourglassEnd(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16081,6 +21054,11 @@ fun faSolidHourglassEnd(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHourglassHalf(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16097,6 +21075,11 @@ fun faSolidHourglassHalf(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularHourglassHalf(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16113,6 +21096,11 @@ fun faRegularHourglassHalf(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHourglassStart(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16129,6 +21117,11 @@ fun faSolidHourglassStart(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHouse(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16145,6 +21138,11 @@ fun faSolidHouse(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHouseChimney(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16161,6 +21159,11 @@ fun faSolidHouseChimney(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHouseChimneyCrack(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16177,6 +21180,11 @@ fun faSolidHouseChimneyCrack(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHouseChimneyMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16193,6 +21201,11 @@ fun faSolidHouseChimneyMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHouseChimneyUser(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16209,6 +21222,11 @@ fun faSolidHouseChimneyUser(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHouseChimneyWindow(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16225,6 +21243,11 @@ fun faSolidHouseChimneyWindow(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHouseCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16241,6 +21264,11 @@ fun faSolidHouseCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHouseCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16257,6 +21285,11 @@ fun faSolidHouseCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null)
 @Composable
 fun faSolidHouseCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16273,6 +21306,11 @@ fun faSolidHouseCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHouseCrack(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16289,6 +21327,11 @@ fun faSolidHouseCrack(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHouseFire(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16305,6 +21348,11 @@ fun faSolidHouseFire(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHouseFlag(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16321,6 +21369,11 @@ fun faSolidHouseFlag(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHouseFloodWater(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16337,6 +21390,11 @@ fun faSolidHouseFloodWater(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHouseFloodWaterCircleArrowRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16353,6 +21411,11 @@ fun faSolidHouseFloodWaterCircleArrowRight(attrs: AttrBuilderContext<SVGElement>
 @Composable
 fun faSolidHouseLaptop(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16369,6 +21432,11 @@ fun faSolidHouseLaptop(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHouseLock(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16385,6 +21453,11 @@ fun faSolidHouseLock(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHouseMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16401,6 +21474,11 @@ fun faSolidHouseMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHouseMedicalCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16417,6 +21495,11 @@ fun faSolidHouseMedicalCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null
 @Composable
 fun faSolidHouseMedicalCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16433,6 +21516,11 @@ fun faSolidHouseMedicalCircleExclamation(attrs: AttrBuilderContext<SVGElement>? 
 @Composable
 fun faSolidHouseMedicalCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16449,6 +21537,11 @@ fun faSolidHouseMedicalCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null
 @Composable
 fun faSolidHouseMedicalFlag(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16465,6 +21558,11 @@ fun faSolidHouseMedicalFlag(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHouseSignal(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16481,6 +21579,11 @@ fun faSolidHouseSignal(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHouseTsunami(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16497,6 +21600,11 @@ fun faSolidHouseTsunami(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHouseUser(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16513,6 +21621,11 @@ fun faSolidHouseUser(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsHouzz(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16529,6 +21642,11 @@ fun faBrandsHouzz(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHryvniaSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16545,6 +21663,11 @@ fun faSolidHryvniaSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsHtml5(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16561,6 +21684,11 @@ fun faBrandsHtml5(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsHubspot(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16577,6 +21705,11 @@ fun faBrandsHubspot(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidHurricane(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16593,6 +21726,11 @@ fun faSolidHurricane(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidI(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16609,6 +21747,11 @@ fun faSolidI(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidICursor(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 256 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16625,6 +21768,11 @@ fun faSolidICursor(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidIceCream(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16641,6 +21789,11 @@ fun faSolidIceCream(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidIcicles(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16657,6 +21810,11 @@ fun faSolidIcicles(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidIcons(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16673,6 +21831,11 @@ fun faSolidIcons(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidIdBadge(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16689,6 +21852,11 @@ fun faSolidIdBadge(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularIdBadge(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16705,6 +21873,11 @@ fun faRegularIdBadge(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidIdCard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16721,6 +21894,11 @@ fun faSolidIdCard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularIdCard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16737,6 +21915,11 @@ fun faRegularIdCard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidIdCardClip(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16753,6 +21936,11 @@ fun faSolidIdCardClip(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsIdeal(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16769,6 +21957,11 @@ fun faBrandsIdeal(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidIgloo(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16785,6 +21978,11 @@ fun faSolidIgloo(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidImage(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16801,6 +21999,11 @@ fun faSolidImage(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularImage(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16817,6 +22020,11 @@ fun faRegularImage(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidImagePortrait(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16833,6 +22041,11 @@ fun faSolidImagePortrait(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidImages(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16849,6 +22062,11 @@ fun faSolidImages(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularImages(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16865,6 +22083,11 @@ fun faRegularImages(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsImdb(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16881,6 +22104,11 @@ fun faBrandsImdb(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidInbox(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16897,6 +22125,11 @@ fun faSolidInbox(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidIndent(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16913,6 +22146,11 @@ fun faSolidIndent(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidIndianRupeeSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16929,6 +22167,11 @@ fun faSolidIndianRupeeSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidIndustry(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16945,6 +22188,11 @@ fun faSolidIndustry(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidInfinity(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16961,6 +22209,11 @@ fun faSolidInfinity(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidInfo(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 192 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16977,6 +22230,11 @@ fun faSolidInfo(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsInstagram(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -16993,6 +22251,11 @@ fun faBrandsInstagram(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsInstalod(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17009,6 +22272,11 @@ fun faBrandsInstalod(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsIntercom(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17025,6 +22293,11 @@ fun faBrandsIntercom(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsInternetExplorer(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17041,6 +22314,11 @@ fun faBrandsInternetExplorer(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsInvision(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17057,6 +22335,11 @@ fun faBrandsInvision(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsIoxhost(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17073,6 +22356,11 @@ fun faBrandsIoxhost(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidItalic(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17089,6 +22377,11 @@ fun faSolidItalic(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsItchIo(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17105,6 +22398,11 @@ fun faBrandsItchIo(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsItunes(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17121,6 +22419,11 @@ fun faBrandsItunes(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsItunesNote(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17137,6 +22440,11 @@ fun faBrandsItunesNote(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidJ(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17153,6 +22461,11 @@ fun faSolidJ(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidJar(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17169,6 +22482,11 @@ fun faSolidJar(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidJarWheat(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17185,6 +22503,11 @@ fun faSolidJarWheat(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsJava(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17201,6 +22524,11 @@ fun faBrandsJava(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidJedi(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17217,6 +22545,11 @@ fun faSolidJedi(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsJediOrder(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17233,6 +22566,11 @@ fun faBrandsJediOrder(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsJenkins(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17249,6 +22587,11 @@ fun faBrandsJenkins(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidJetFighter(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17265,6 +22608,11 @@ fun faSolidJetFighter(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidJetFighterUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17281,6 +22629,11 @@ fun faSolidJetFighterUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsJira(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17297,6 +22650,11 @@ fun faBrandsJira(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsJoget(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17313,6 +22671,11 @@ fun faBrandsJoget(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidJoint(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17329,6 +22692,11 @@ fun faSolidJoint(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsJoomla(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17345,6 +22713,11 @@ fun faBrandsJoomla(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsJs(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17361,6 +22734,11 @@ fun faBrandsJs(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsJsfiddle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17377,6 +22755,11 @@ fun faBrandsJsfiddle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidJugDetergent(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17393,6 +22776,11 @@ fun faSolidJugDetergent(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidK(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17409,6 +22797,11 @@ fun faSolidK(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidKaaba(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17425,6 +22818,11 @@ fun faSolidKaaba(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsKaggle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17441,6 +22839,11 @@ fun faBrandsKaggle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidKey(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17457,6 +22860,11 @@ fun faSolidKey(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsKeybase(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17473,6 +22881,11 @@ fun faBrandsKeybase(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidKeyboard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17489,6 +22902,11 @@ fun faSolidKeyboard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularKeyboard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17505,6 +22923,11 @@ fun faRegularKeyboard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsKeycdn(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17521,6 +22944,11 @@ fun faBrandsKeycdn(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidKhanda(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17537,6 +22965,11 @@ fun faSolidKhanda(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsKickstarter(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17553,6 +22986,11 @@ fun faBrandsKickstarter(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsKickstarterK(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17569,6 +23007,11 @@ fun faBrandsKickstarterK(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidKipSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17585,6 +23028,11 @@ fun faSolidKipSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidKitMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17601,6 +23049,11 @@ fun faSolidKitMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidKitchenSet(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17617,6 +23070,11 @@ fun faSolidKitchenSet(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidKiwiBird(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17633,6 +23091,11 @@ fun faSolidKiwiBird(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsKorvue(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 446 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17649,6 +23112,11 @@ fun faBrandsKorvue(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidL(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17665,6 +23133,11 @@ fun faSolidL(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLandMineOn(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17681,6 +23154,11 @@ fun faSolidLandMineOn(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLandmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17697,6 +23175,11 @@ fun faSolidLandmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLandmarkDome(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17713,6 +23196,11 @@ fun faSolidLandmarkDome(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLandmarkFlag(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17729,6 +23217,11 @@ fun faSolidLandmarkFlag(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLanguage(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17745,6 +23238,11 @@ fun faSolidLanguage(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLaptop(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17761,6 +23259,11 @@ fun faSolidLaptop(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLaptopCode(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17777,6 +23280,11 @@ fun faSolidLaptopCode(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLaptopFile(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17793,6 +23301,11 @@ fun faSolidLaptopFile(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLaptopMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17809,6 +23322,11 @@ fun faSolidLaptopMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsLaravel(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17825,6 +23343,11 @@ fun faBrandsLaravel(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLariSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17841,6 +23364,11 @@ fun faSolidLariSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsLastfm(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17857,6 +23385,11 @@ fun faBrandsLastfm(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLayerGroup(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17873,6 +23406,11 @@ fun faSolidLayerGroup(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLeaf(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17889,6 +23427,11 @@ fun faSolidLeaf(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsLeanpub(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17905,6 +23448,11 @@ fun faBrandsLeanpub(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLeftLong(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17921,6 +23469,11 @@ fun faSolidLeftLong(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLeftRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17937,6 +23490,11 @@ fun faSolidLeftRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLemon(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17953,6 +23511,11 @@ fun faSolidLemon(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularLemon(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17969,6 +23532,11 @@ fun faRegularLemon(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsLess(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -17985,6 +23553,11 @@ fun faBrandsLess(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLessThan(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18001,6 +23574,11 @@ fun faSolidLessThan(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLessThanEqual(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18017,6 +23595,11 @@ fun faSolidLessThanEqual(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLifeRing(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18033,6 +23616,11 @@ fun faSolidLifeRing(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularLifeRing(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18049,6 +23637,11 @@ fun faRegularLifeRing(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLightbulb(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18065,6 +23658,11 @@ fun faSolidLightbulb(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularLightbulb(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18081,6 +23679,11 @@ fun faRegularLightbulb(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsLine(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18097,6 +23700,11 @@ fun faBrandsLine(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLinesLeaning(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18113,6 +23721,11 @@ fun faSolidLinesLeaning(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLink(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18129,6 +23742,11 @@ fun faSolidLink(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLinkSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18145,6 +23763,11 @@ fun faSolidLinkSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsLinkedin(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18161,6 +23784,11 @@ fun faBrandsLinkedin(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsLinkedinIn(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18177,6 +23805,11 @@ fun faBrandsLinkedinIn(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsLinode(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18193,6 +23826,11 @@ fun faBrandsLinode(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsLinux(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18209,6 +23847,11 @@ fun faBrandsLinux(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLiraSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18225,6 +23868,11 @@ fun faSolidLiraSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidList(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18241,6 +23889,11 @@ fun faSolidList(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidListCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18257,6 +23910,11 @@ fun faSolidListCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidListOl(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18273,6 +23931,11 @@ fun faSolidListOl(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidListUl(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18289,6 +23952,11 @@ fun faSolidListUl(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLitecoinSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18305,6 +23973,11 @@ fun faSolidLitecoinSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLocationArrow(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18321,6 +23994,11 @@ fun faSolidLocationArrow(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLocationCrosshairs(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18337,6 +24015,11 @@ fun faSolidLocationCrosshairs(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLocationDot(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18353,6 +24036,11 @@ fun faSolidLocationDot(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLocationPin(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18369,6 +24057,11 @@ fun faSolidLocationPin(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLocationPinLock(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18385,6 +24078,11 @@ fun faSolidLocationPinLock(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLock(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18401,6 +24099,11 @@ fun faSolidLock(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLockOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18417,6 +24120,11 @@ fun faSolidLockOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLocust(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18433,6 +24141,11 @@ fun faSolidLocust(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLungs(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18449,6 +24162,11 @@ fun faSolidLungs(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidLungsVirus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18465,6 +24183,11 @@ fun faSolidLungsVirus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsLyft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18481,6 +24204,11 @@ fun faBrandsLyft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidM(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18497,6 +24225,11 @@ fun faSolidM(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMagento(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18513,6 +24246,11 @@ fun faBrandsMagento(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMagnet(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18529,6 +24267,11 @@ fun faSolidMagnet(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMagnifyingGlass(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18545,6 +24288,11 @@ fun faSolidMagnifyingGlass(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMagnifyingGlassArrowRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18561,6 +24309,11 @@ fun faSolidMagnifyingGlassArrowRight(attrs: AttrBuilderContext<SVGElement>? = nu
 @Composable
 fun faSolidMagnifyingGlassChart(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18577,6 +24330,11 @@ fun faSolidMagnifyingGlassChart(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMagnifyingGlassDollar(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18593,6 +24351,11 @@ fun faSolidMagnifyingGlassDollar(attrs: AttrBuilderContext<SVGElement>? = null) 
 @Composable
 fun faSolidMagnifyingGlassLocation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18609,6 +24372,11 @@ fun faSolidMagnifyingGlassLocation(attrs: AttrBuilderContext<SVGElement>? = null
 @Composable
 fun faSolidMagnifyingGlassMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18625,6 +24393,11 @@ fun faSolidMagnifyingGlassMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMagnifyingGlassPlus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18641,6 +24414,11 @@ fun faSolidMagnifyingGlassPlus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMailchimp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18657,6 +24435,11 @@ fun faBrandsMailchimp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidManatSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18673,6 +24456,11 @@ fun faSolidManatSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMandalorian(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18689,6 +24477,11 @@ fun faBrandsMandalorian(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMap(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18705,6 +24498,11 @@ fun faSolidMap(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularMap(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18721,6 +24519,11 @@ fun faRegularMap(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMapLocation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18737,6 +24540,11 @@ fun faSolidMapLocation(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMapLocationDot(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18753,6 +24561,11 @@ fun faSolidMapLocationDot(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMapPin(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18769,6 +24582,11 @@ fun faSolidMapPin(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMarkdown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18785,6 +24603,11 @@ fun faBrandsMarkdown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMarker(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18801,6 +24624,11 @@ fun faSolidMarker(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMars(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18817,6 +24645,11 @@ fun faSolidMars(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMarsAndVenus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18833,6 +24666,11 @@ fun faSolidMarsAndVenus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMarsAndVenusBurst(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18849,6 +24687,11 @@ fun faSolidMarsAndVenusBurst(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMarsDouble(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18865,6 +24708,11 @@ fun faSolidMarsDouble(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMarsStroke(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18881,6 +24729,11 @@ fun faSolidMarsStroke(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMarsStrokeRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18897,6 +24750,11 @@ fun faSolidMarsStrokeRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMarsStrokeUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18913,6 +24771,11 @@ fun faSolidMarsStrokeUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMartiniGlass(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18929,6 +24792,11 @@ fun faSolidMartiniGlass(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMartiniGlassCitrus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18945,6 +24813,11 @@ fun faSolidMartiniGlassCitrus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMartiniGlassEmpty(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18961,6 +24834,11 @@ fun faSolidMartiniGlassEmpty(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMask(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18977,6 +24855,11 @@ fun faSolidMask(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMaskFace(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -18993,6 +24876,11 @@ fun faSolidMaskFace(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMaskVentilator(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19009,6 +24897,11 @@ fun faSolidMaskVentilator(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMasksTheater(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19025,6 +24918,11 @@ fun faSolidMasksTheater(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMastodon(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19041,6 +24939,11 @@ fun faBrandsMastodon(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMattressPillow(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19057,6 +24960,11 @@ fun faSolidMattressPillow(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMaxcdn(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19073,6 +24981,11 @@ fun faBrandsMaxcdn(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMaximize(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19089,6 +25002,11 @@ fun faSolidMaximize(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMdb(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19105,6 +25023,11 @@ fun faBrandsMdb(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMedal(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19121,6 +25044,11 @@ fun faSolidMedal(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMedapps(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19137,6 +25065,11 @@ fun faBrandsMedapps(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMedium(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19153,6 +25086,11 @@ fun faBrandsMedium(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMedrt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 544 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19169,6 +25107,11 @@ fun faBrandsMedrt(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMeetup(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19185,6 +25128,11 @@ fun faBrandsMeetup(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMegaport(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19201,6 +25149,11 @@ fun faBrandsMegaport(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMemory(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19217,6 +25170,11 @@ fun faSolidMemory(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMendeley(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19233,6 +25191,11 @@ fun faBrandsMendeley(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMenorah(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19249,6 +25212,11 @@ fun faSolidMenorah(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMercury(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19265,6 +25233,11 @@ fun faSolidMercury(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMessage(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19281,6 +25254,11 @@ fun faSolidMessage(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularMessage(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19297,6 +25275,11 @@ fun faRegularMessage(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMeta(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19313,6 +25296,11 @@ fun faBrandsMeta(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMeteor(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19329,6 +25317,11 @@ fun faSolidMeteor(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMicroblog(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19345,6 +25338,11 @@ fun faBrandsMicroblog(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMicrochip(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19361,6 +25359,11 @@ fun faSolidMicrochip(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMicrophone(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19377,6 +25380,11 @@ fun faSolidMicrophone(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMicrophoneLines(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19393,6 +25401,11 @@ fun faSolidMicrophoneLines(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMicrophoneLinesSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19409,6 +25422,11 @@ fun faSolidMicrophoneLinesSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMicrophoneSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19425,6 +25443,11 @@ fun faSolidMicrophoneSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMicroscope(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19441,6 +25464,11 @@ fun faSolidMicroscope(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMicrosoft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19457,6 +25485,11 @@ fun faBrandsMicrosoft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMillSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19473,6 +25506,11 @@ fun faSolidMillSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMinimize(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19489,6 +25527,11 @@ fun faSolidMinimize(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19505,6 +25548,11 @@ fun faSolidMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMitten(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19521,6 +25569,11 @@ fun faSolidMitten(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMix(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19537,6 +25590,11 @@ fun faBrandsMix(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMixcloud(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19553,6 +25611,11 @@ fun faBrandsMixcloud(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMixer(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19569,6 +25632,11 @@ fun faBrandsMixer(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMizuni(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19585,6 +25653,11 @@ fun faBrandsMizuni(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMobile(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19601,6 +25674,11 @@ fun faSolidMobile(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMobileButton(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19617,6 +25695,11 @@ fun faSolidMobileButton(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMobileRetro(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19633,6 +25716,11 @@ fun faSolidMobileRetro(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMobileScreen(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19649,6 +25737,11 @@ fun faSolidMobileScreen(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMobileScreenButton(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19665,6 +25758,11 @@ fun faSolidMobileScreenButton(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsModx(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19681,6 +25779,11 @@ fun faBrandsModx(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsMonero(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19697,6 +25800,11 @@ fun faBrandsMonero(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMoneyBill(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19713,6 +25821,11 @@ fun faSolidMoneyBill(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMoneyBill1(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19729,6 +25842,11 @@ fun faSolidMoneyBill1(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularMoneyBill1(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19745,6 +25863,11 @@ fun faRegularMoneyBill1(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMoneyBill1Wave(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19761,6 +25884,11 @@ fun faSolidMoneyBill1Wave(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMoneyBillTransfer(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19777,6 +25905,11 @@ fun faSolidMoneyBillTransfer(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMoneyBillTrendUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19793,6 +25926,11 @@ fun faSolidMoneyBillTrendUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMoneyBillWave(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19809,6 +25947,11 @@ fun faSolidMoneyBillWave(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMoneyBillWheat(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19825,6 +25968,11 @@ fun faSolidMoneyBillWheat(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMoneyBills(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19841,6 +25989,11 @@ fun faSolidMoneyBills(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMoneyCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19857,6 +26010,11 @@ fun faSolidMoneyCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMoneyCheckDollar(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19873,6 +26031,11 @@ fun faSolidMoneyCheckDollar(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMonument(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19889,6 +26052,11 @@ fun faSolidMonument(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMoon(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19905,6 +26073,11 @@ fun faSolidMoon(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularMoon(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19921,6 +26094,11 @@ fun faRegularMoon(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMortarPestle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19937,6 +26115,11 @@ fun faSolidMortarPestle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMosque(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19953,6 +26136,11 @@ fun faSolidMosque(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMosquito(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19969,6 +26157,11 @@ fun faSolidMosquito(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMosquitoNet(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -19985,6 +26178,11 @@ fun faSolidMosquitoNet(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMotorcycle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20001,6 +26199,11 @@ fun faSolidMotorcycle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMound(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20017,6 +26220,11 @@ fun faSolidMound(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMountain(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20033,6 +26241,11 @@ fun faSolidMountain(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMountainCity(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20049,6 +26262,11 @@ fun faSolidMountainCity(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMountainSun(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20065,6 +26283,11 @@ fun faSolidMountainSun(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMugHot(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20081,6 +26304,11 @@ fun faSolidMugHot(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMugSaucer(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20097,6 +26325,11 @@ fun faSolidMugSaucer(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidMusic(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20113,6 +26346,11 @@ fun faSolidMusic(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidN(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20129,6 +26367,11 @@ fun faSolidN(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidNairaSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20145,6 +26388,11 @@ fun faSolidNairaSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsNapster(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20161,6 +26409,11 @@ fun faBrandsNapster(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsNeos(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20177,6 +26430,11 @@ fun faBrandsNeos(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidNetworkWired(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20193,6 +26451,11 @@ fun faSolidNetworkWired(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidNeuter(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20209,6 +26472,11 @@ fun faSolidNeuter(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidNewspaper(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20225,6 +26493,11 @@ fun faSolidNewspaper(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularNewspaper(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20241,6 +26514,11 @@ fun faRegularNewspaper(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsNfcDirectional(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20257,6 +26535,11 @@ fun faBrandsNfcDirectional(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsNfcSymbol(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20273,6 +26556,11 @@ fun faBrandsNfcSymbol(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsNimblr(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20289,6 +26577,11 @@ fun faBrandsNimblr(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsNode(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20305,6 +26598,11 @@ fun faBrandsNode(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsNodeJs(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20321,6 +26619,11 @@ fun faBrandsNodeJs(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidNotEqual(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20337,6 +26640,11 @@ fun faSolidNotEqual(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidNoteSticky(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20353,6 +26661,11 @@ fun faSolidNoteSticky(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularNoteSticky(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20369,6 +26682,11 @@ fun faRegularNoteSticky(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidNotesMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20385,6 +26703,11 @@ fun faSolidNotesMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsNpm(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20401,6 +26724,11 @@ fun faBrandsNpm(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsNs8(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20417,6 +26745,11 @@ fun faBrandsNs8(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsNutritionix(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 400 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20433,6 +26766,11 @@ fun faBrandsNutritionix(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidO(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20449,6 +26787,11 @@ fun faSolidO(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidObjectGroup(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20465,6 +26808,11 @@ fun faSolidObjectGroup(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularObjectGroup(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20481,6 +26829,11 @@ fun faRegularObjectGroup(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidObjectUngroup(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20497,6 +26850,11 @@ fun faSolidObjectUngroup(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularObjectUngroup(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20513,6 +26871,11 @@ fun faRegularObjectUngroup(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsOctopusDeploy(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20529,6 +26892,11 @@ fun faBrandsOctopusDeploy(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsOdnoklassniki(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20545,6 +26913,11 @@ fun faBrandsOdnoklassniki(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidOilCan(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20561,6 +26934,11 @@ fun faSolidOilCan(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidOilWell(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20577,6 +26955,11 @@ fun faSolidOilWell(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsOldRepublic(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20593,6 +26976,11 @@ fun faBrandsOldRepublic(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidOm(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20609,6 +26997,11 @@ fun faSolidOm(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsOpencart(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20625,6 +27018,11 @@ fun faBrandsOpencart(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsOpenid(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20641,6 +27039,11 @@ fun faBrandsOpenid(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsOpera(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20657,6 +27060,11 @@ fun faBrandsOpera(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsOptinMonster(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20673,6 +27081,11 @@ fun faBrandsOptinMonster(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsOrcid(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20689,6 +27102,11 @@ fun faBrandsOrcid(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsOsi(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20705,6 +27123,11 @@ fun faBrandsOsi(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidOtter(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20721,6 +27144,11 @@ fun faSolidOtter(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidOutdent(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20737,6 +27165,11 @@ fun faSolidOutdent(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidP(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20753,6 +27186,11 @@ fun faSolidP(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPadlet(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20769,6 +27207,11 @@ fun faBrandsPadlet(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPage4(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20785,6 +27228,11 @@ fun faBrandsPage4(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPagelines(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20801,6 +27249,11 @@ fun faBrandsPagelines(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPager(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20817,6 +27270,11 @@ fun faSolidPager(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPaintRoller(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20833,6 +27291,11 @@ fun faSolidPaintRoller(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPaintbrush(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20849,6 +27312,11 @@ fun faSolidPaintbrush(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPalette(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20865,6 +27333,11 @@ fun faSolidPalette(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPalfed(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20881,6 +27354,11 @@ fun faBrandsPalfed(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPallet(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20897,6 +27375,11 @@ fun faSolidPallet(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPanorama(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20913,6 +27396,11 @@ fun faSolidPanorama(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPaperPlane(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20929,6 +27417,11 @@ fun faSolidPaperPlane(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularPaperPlane(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20945,6 +27438,11 @@ fun faRegularPaperPlane(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPaperclip(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20961,6 +27459,11 @@ fun faSolidPaperclip(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidParachuteBox(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20977,6 +27480,11 @@ fun faSolidParachuteBox(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidParagraph(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -20993,6 +27501,11 @@ fun faSolidParagraph(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPassport(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21009,6 +27522,11 @@ fun faSolidPassport(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPaste(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21025,6 +27543,11 @@ fun faSolidPaste(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularPaste(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21041,6 +27564,11 @@ fun faRegularPaste(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPatreon(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21057,6 +27585,11 @@ fun faBrandsPatreon(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPause(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21073,6 +27606,11 @@ fun faSolidPause(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPaw(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21089,6 +27627,11 @@ fun faSolidPaw(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPaypal(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21105,6 +27648,11 @@ fun faBrandsPaypal(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPeace(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21121,6 +27669,11 @@ fun faSolidPeace(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPen(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21137,6 +27690,11 @@ fun faSolidPen(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPenClip(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21153,6 +27711,11 @@ fun faSolidPenClip(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPenFancy(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21169,6 +27732,11 @@ fun faSolidPenFancy(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPenNib(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21185,6 +27753,11 @@ fun faSolidPenNib(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPenRuler(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21201,6 +27774,11 @@ fun faSolidPenRuler(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPenToSquare(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21217,6 +27795,11 @@ fun faSolidPenToSquare(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularPenToSquare(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21233,6 +27816,11 @@ fun faRegularPenToSquare(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPencil(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21249,6 +27837,11 @@ fun faSolidPencil(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPeopleArrows(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21265,6 +27858,11 @@ fun faSolidPeopleArrows(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPeopleCarryBox(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21281,6 +27879,11 @@ fun faSolidPeopleCarryBox(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPeopleGroup(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21297,6 +27900,11 @@ fun faSolidPeopleGroup(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPeopleLine(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21313,6 +27921,11 @@ fun faSolidPeopleLine(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPeoplePulling(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21329,6 +27942,11 @@ fun faSolidPeoplePulling(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPeopleRobbery(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21345,6 +27963,11 @@ fun faSolidPeopleRobbery(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPeopleRoof(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21361,6 +27984,11 @@ fun faSolidPeopleRoof(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPepperHot(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21377,6 +28005,11 @@ fun faSolidPepperHot(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPerbyte(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21393,6 +28026,11 @@ fun faBrandsPerbyte(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPercent(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21409,6 +28047,11 @@ fun faSolidPercent(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPeriscope(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21425,6 +28068,11 @@ fun faBrandsPeriscope(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPerson(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21441,6 +28089,11 @@ fun faSolidPerson(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonArrowDownToLine(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21457,6 +28110,11 @@ fun faSolidPersonArrowDownToLine(attrs: AttrBuilderContext<SVGElement>? = null) 
 @Composable
 fun faSolidPersonArrowUpFromLine(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21473,6 +28131,11 @@ fun faSolidPersonArrowUpFromLine(attrs: AttrBuilderContext<SVGElement>? = null) 
 @Composable
 fun faSolidPersonBiking(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21489,6 +28152,11 @@ fun faSolidPersonBiking(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonBooth(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21505,6 +28173,11 @@ fun faSolidPersonBooth(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonBreastfeeding(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21521,6 +28194,11 @@ fun faSolidPersonBreastfeeding(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonBurst(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21537,6 +28215,11 @@ fun faSolidPersonBurst(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonCane(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21553,6 +28236,11 @@ fun faSolidPersonCane(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonChalkboard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21569,6 +28257,11 @@ fun faSolidPersonChalkboard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21585,6 +28278,11 @@ fun faSolidPersonCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21601,6 +28299,11 @@ fun faSolidPersonCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null
 @Composable
 fun faSolidPersonCircleMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21617,6 +28320,11 @@ fun faSolidPersonCircleMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonCirclePlus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21633,6 +28341,11 @@ fun faSolidPersonCirclePlus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonCircleQuestion(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21649,6 +28362,11 @@ fun faSolidPersonCircleQuestion(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21665,6 +28383,11 @@ fun faSolidPersonCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonDigging(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21681,6 +28404,11 @@ fun faSolidPersonDigging(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonDotsFromLine(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21697,6 +28425,11 @@ fun faSolidPersonDotsFromLine(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonDress(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21713,6 +28446,11 @@ fun faSolidPersonDress(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonDressBurst(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21729,6 +28467,11 @@ fun faSolidPersonDressBurst(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonDrowning(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21745,6 +28488,11 @@ fun faSolidPersonDrowning(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonFalling(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21761,6 +28509,11 @@ fun faSolidPersonFalling(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonFallingBurst(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21777,6 +28530,11 @@ fun faSolidPersonFallingBurst(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonHalfDress(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21793,6 +28551,11 @@ fun faSolidPersonHalfDress(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonHarassing(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21809,6 +28572,11 @@ fun faSolidPersonHarassing(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonHiking(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21825,6 +28593,11 @@ fun faSolidPersonHiking(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonMilitaryPointing(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21841,6 +28614,11 @@ fun faSolidPersonMilitaryPointing(attrs: AttrBuilderContext<SVGElement>? = null)
 @Composable
 fun faSolidPersonMilitaryRifle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21857,6 +28635,11 @@ fun faSolidPersonMilitaryRifle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonMilitaryToPerson(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21873,6 +28656,11 @@ fun faSolidPersonMilitaryToPerson(attrs: AttrBuilderContext<SVGElement>? = null)
 @Composable
 fun faSolidPersonPraying(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21889,6 +28677,11 @@ fun faSolidPersonPraying(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonPregnant(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21905,6 +28698,11 @@ fun faSolidPersonPregnant(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonRays(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21921,6 +28719,11 @@ fun faSolidPersonRays(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonRifle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21937,6 +28740,11 @@ fun faSolidPersonRifle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonRunning(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21953,6 +28761,11 @@ fun faSolidPersonRunning(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonShelter(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21969,6 +28782,11 @@ fun faSolidPersonShelter(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonSkating(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -21985,6 +28803,11 @@ fun faSolidPersonSkating(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonSkiing(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22001,6 +28824,11 @@ fun faSolidPersonSkiing(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonSkiingNordic(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22017,6 +28845,11 @@ fun faSolidPersonSkiingNordic(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonSnowboarding(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22033,6 +28866,11 @@ fun faSolidPersonSnowboarding(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonSwimming(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22049,6 +28887,11 @@ fun faSolidPersonSwimming(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonThroughWindow(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22065,6 +28908,11 @@ fun faSolidPersonThroughWindow(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonWalking(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22081,6 +28929,11 @@ fun faSolidPersonWalking(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonWalkingArrowLoopLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22097,6 +28950,11 @@ fun faSolidPersonWalkingArrowLoopLeft(attrs: AttrBuilderContext<SVGElement>? = n
 @Composable
 fun faSolidPersonWalkingArrowRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22113,6 +28971,11 @@ fun faSolidPersonWalkingArrowRight(attrs: AttrBuilderContext<SVGElement>? = null
 @Composable
 fun faSolidPersonWalkingDashedLineArrowRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22129,6 +28992,11 @@ fun faSolidPersonWalkingDashedLineArrowRight(attrs: AttrBuilderContext<SVGElemen
 @Composable
 fun faSolidPersonWalkingLuggage(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22145,6 +29013,11 @@ fun faSolidPersonWalkingLuggage(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPersonWalkingWithCane(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22161,6 +29034,11 @@ fun faSolidPersonWalkingWithCane(attrs: AttrBuilderContext<SVGElement>? = null) 
 @Composable
 fun faSolidPesetaSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22177,6 +29055,11 @@ fun faSolidPesetaSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPesoSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22193,6 +29076,11 @@ fun faSolidPesoSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPhabricator(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22209,6 +29097,11 @@ fun faBrandsPhabricator(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPhoenixFramework(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22225,6 +29118,11 @@ fun faBrandsPhoenixFramework(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPhoenixSquadron(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22241,6 +29139,11 @@ fun faBrandsPhoenixSquadron(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPhone(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22257,6 +29160,11 @@ fun faSolidPhone(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPhoneFlip(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22273,6 +29181,11 @@ fun faSolidPhoneFlip(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPhoneSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22289,6 +29202,11 @@ fun faSolidPhoneSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPhoneVolume(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22305,6 +29223,11 @@ fun faSolidPhoneVolume(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPhotoFilm(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22321,6 +29244,11 @@ fun faSolidPhotoFilm(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPhp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22337,6 +29265,11 @@ fun faBrandsPhp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPiedPiper(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 480 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22353,6 +29286,11 @@ fun faBrandsPiedPiper(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPiedPiperAlt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22369,6 +29307,11 @@ fun faBrandsPiedPiperAlt(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPiedPiperHat(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22385,6 +29328,11 @@ fun faBrandsPiedPiperHat(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPiedPiperPp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22401,6 +29349,11 @@ fun faBrandsPiedPiperPp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPiggyBank(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22417,6 +29370,11 @@ fun faSolidPiggyBank(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPills(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22433,6 +29391,11 @@ fun faSolidPills(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPinterest(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22449,6 +29412,11 @@ fun faBrandsPinterest(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPinterestP(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22465,6 +29433,11 @@ fun faBrandsPinterestP(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPix(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22481,6 +29454,11 @@ fun faBrandsPix(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPizzaSlice(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22497,6 +29475,11 @@ fun faSolidPizzaSlice(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPlaceOfWorship(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22513,6 +29496,11 @@ fun faSolidPlaceOfWorship(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPlane(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22529,6 +29517,11 @@ fun faSolidPlane(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPlaneArrival(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22545,6 +29538,11 @@ fun faSolidPlaneArrival(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPlaneCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22561,6 +29559,11 @@ fun faSolidPlaneCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPlaneCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22577,6 +29580,11 @@ fun faSolidPlaneCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null)
 @Composable
 fun faSolidPlaneCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22593,6 +29601,11 @@ fun faSolidPlaneCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPlaneDeparture(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22609,6 +29622,11 @@ fun faSolidPlaneDeparture(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPlaneLock(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22625,6 +29643,11 @@ fun faSolidPlaneLock(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPlaneSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22641,6 +29664,11 @@ fun faSolidPlaneSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPlaneUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22657,6 +29685,11 @@ fun faSolidPlaneUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPlantWilt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22673,6 +29706,11 @@ fun faSolidPlantWilt(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPlateWheat(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22689,6 +29727,11 @@ fun faSolidPlateWheat(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPlay(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22705,6 +29748,11 @@ fun faSolidPlay(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPlaystation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22721,6 +29769,11 @@ fun faBrandsPlaystation(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPlug(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22737,6 +29790,11 @@ fun faSolidPlug(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPlugCircleBolt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22753,6 +29811,11 @@ fun faSolidPlugCircleBolt(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPlugCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22769,6 +29832,11 @@ fun faSolidPlugCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPlugCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22785,6 +29853,11 @@ fun faSolidPlugCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null) 
 @Composable
 fun faSolidPlugCircleMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22801,6 +29874,11 @@ fun faSolidPlugCircleMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPlugCirclePlus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22817,6 +29895,11 @@ fun faSolidPlugCirclePlus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPlugCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22833,6 +29916,11 @@ fun faSolidPlugCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPlus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22849,6 +29937,11 @@ fun faSolidPlus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPlusMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22865,6 +29958,11 @@ fun faSolidPlusMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPodcast(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22881,6 +29979,11 @@ fun faSolidPodcast(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPoo(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22897,6 +30000,11 @@ fun faSolidPoo(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPooStorm(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22913,6 +30021,11 @@ fun faSolidPooStorm(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPoop(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22929,6 +30042,11 @@ fun faSolidPoop(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPowerOff(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22945,6 +30063,11 @@ fun faSolidPowerOff(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPrescription(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22961,6 +30084,11 @@ fun faSolidPrescription(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPrescriptionBottle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22977,6 +30105,11 @@ fun faSolidPrescriptionBottle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPrescriptionBottleMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -22993,6 +30126,11 @@ fun faSolidPrescriptionBottleMedical(attrs: AttrBuilderContext<SVGElement>? = nu
 @Composable
 fun faSolidPrint(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23009,6 +30147,11 @@ fun faSolidPrint(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsProductHunt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23025,6 +30168,11 @@ fun faBrandsProductHunt(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPumpMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23041,6 +30189,11 @@ fun faSolidPumpMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPumpSoap(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23057,6 +30210,11 @@ fun faSolidPumpSoap(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPushed(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 432 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23073,6 +30231,11 @@ fun faBrandsPushed(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidPuzzlePiece(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23089,6 +30252,11 @@ fun faSolidPuzzlePiece(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsPython(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23105,6 +30273,11 @@ fun faBrandsPython(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidQ(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23121,6 +30294,11 @@ fun faSolidQ(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsQq(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23137,6 +30315,11 @@ fun faBrandsQq(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidQrcode(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23153,6 +30336,11 @@ fun faSolidQrcode(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidQuestion(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23169,6 +30357,11 @@ fun faSolidQuestion(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsQuinscape(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23185,6 +30378,11 @@ fun faBrandsQuinscape(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsQuora(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23201,6 +30399,11 @@ fun faBrandsQuora(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidQuoteLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23217,6 +30420,11 @@ fun faSolidQuoteLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidQuoteRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23233,6 +30441,11 @@ fun faSolidQuoteRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidR(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23249,6 +30462,11 @@ fun faSolidR(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsRProject(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 581 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23265,6 +30483,11 @@ fun faBrandsRProject(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRadiation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23281,6 +30504,11 @@ fun faSolidRadiation(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRadio(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23297,6 +30525,11 @@ fun faSolidRadio(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRainbow(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23313,6 +30546,11 @@ fun faSolidRainbow(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRankingStar(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23329,6 +30567,11 @@ fun faSolidRankingStar(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsRaspberryPi(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 407 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23345,6 +30588,11 @@ fun faBrandsRaspberryPi(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsRavelry(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23361,6 +30609,11 @@ fun faBrandsRavelry(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsReact(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23377,6 +30630,11 @@ fun faBrandsReact(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsReacteurope(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23393,6 +30651,11 @@ fun faBrandsReacteurope(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsReadme(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23409,6 +30672,11 @@ fun faBrandsReadme(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsRebel(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23425,6 +30693,11 @@ fun faBrandsRebel(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidReceipt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23441,6 +30714,11 @@ fun faSolidReceipt(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRecordVinyl(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23457,6 +30735,11 @@ fun faSolidRecordVinyl(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRectangleAd(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23473,6 +30756,11 @@ fun faSolidRectangleAd(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRectangleList(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23489,6 +30777,11 @@ fun faSolidRectangleList(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularRectangleList(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23505,6 +30798,11 @@ fun faRegularRectangleList(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRectangleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23521,6 +30819,11 @@ fun faSolidRectangleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularRectangleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23537,6 +30840,11 @@ fun faRegularRectangleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRecycle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23553,6 +30861,11 @@ fun faSolidRecycle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsRedRiver(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23569,6 +30882,11 @@ fun faBrandsRedRiver(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsReddit(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23585,6 +30903,11 @@ fun faBrandsReddit(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsRedditAlien(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23601,6 +30924,11 @@ fun faBrandsRedditAlien(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsRedhat(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23617,6 +30945,11 @@ fun faBrandsRedhat(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRegistered(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23633,6 +30966,11 @@ fun faSolidRegistered(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularRegistered(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23649,6 +30987,11 @@ fun faRegularRegistered(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsRenren(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23665,6 +31008,11 @@ fun faBrandsRenren(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRepeat(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23681,6 +31029,11 @@ fun faSolidRepeat(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidReply(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23697,6 +31050,11 @@ fun faSolidReply(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidReplyAll(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23713,6 +31071,11 @@ fun faSolidReplyAll(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsReplyd(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23729,6 +31092,11 @@ fun faBrandsReplyd(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRepublican(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23745,6 +31113,11 @@ fun faSolidRepublican(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsResearchgate(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23761,6 +31134,11 @@ fun faBrandsResearchgate(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsResolving(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23777,6 +31155,11 @@ fun faBrandsResolving(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRestroom(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23793,6 +31176,11 @@ fun faSolidRestroom(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRetweet(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23809,6 +31197,11 @@ fun faSolidRetweet(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsRev(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23825,6 +31218,11 @@ fun faBrandsRev(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRibbon(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23841,6 +31239,11 @@ fun faSolidRibbon(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRightFromBracket(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23857,6 +31260,11 @@ fun faSolidRightFromBracket(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRightLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23873,6 +31281,11 @@ fun faSolidRightLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRightLong(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23889,6 +31302,11 @@ fun faSolidRightLong(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRightToBracket(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23905,6 +31323,11 @@ fun faSolidRightToBracket(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRing(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23921,6 +31344,11 @@ fun faSolidRing(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRoad(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23937,6 +31365,11 @@ fun faSolidRoad(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRoadBarrier(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23953,6 +31386,11 @@ fun faSolidRoadBarrier(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRoadBridge(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23969,6 +31407,11 @@ fun faSolidRoadBridge(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRoadCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -23985,6 +31428,11 @@ fun faSolidRoadCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRoadCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24001,6 +31449,11 @@ fun faSolidRoadCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null) 
 @Composable
 fun faSolidRoadCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24017,6 +31470,11 @@ fun faSolidRoadCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRoadLock(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24033,6 +31491,11 @@ fun faSolidRoadLock(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRoadSpikes(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24049,6 +31512,11 @@ fun faSolidRoadSpikes(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRobot(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24065,6 +31533,11 @@ fun faSolidRobot(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRocket(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24081,6 +31554,11 @@ fun faSolidRocket(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsRocketchat(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24097,6 +31575,11 @@ fun faBrandsRocketchat(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsRockrms(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24113,6 +31596,11 @@ fun faBrandsRockrms(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRotate(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24129,6 +31617,11 @@ fun faSolidRotate(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRotateLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24145,6 +31638,11 @@ fun faSolidRotateLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRotateRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24161,6 +31659,11 @@ fun faSolidRotateRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRoute(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24177,6 +31680,11 @@ fun faSolidRoute(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRss(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24193,6 +31701,11 @@ fun faSolidRss(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRubleSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24209,6 +31722,11 @@ fun faSolidRubleSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRug(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24225,6 +31743,11 @@ fun faSolidRug(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRuler(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24241,6 +31764,11 @@ fun faSolidRuler(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRulerCombined(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24257,6 +31785,11 @@ fun faSolidRulerCombined(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRulerHorizontal(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24273,6 +31806,11 @@ fun faSolidRulerHorizontal(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRulerVertical(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 256 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24289,6 +31827,11 @@ fun faSolidRulerVertical(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRupeeSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24305,6 +31848,11 @@ fun faSolidRupeeSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidRupiahSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24321,6 +31869,11 @@ fun faSolidRupiahSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsRust(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24337,6 +31890,11 @@ fun faBrandsRust(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidS(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24353,6 +31911,11 @@ fun faSolidS(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSackDollar(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24369,6 +31932,11 @@ fun faSolidSackDollar(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSackXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24385,6 +31953,11 @@ fun faSolidSackXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSafari(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24401,6 +31974,11 @@ fun faBrandsSafari(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSailboat(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24417,6 +31995,11 @@ fun faSolidSailboat(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSalesforce(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24433,6 +32016,11 @@ fun faBrandsSalesforce(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSass(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24449,6 +32037,11 @@ fun faBrandsSass(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSatellite(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24465,6 +32058,11 @@ fun faSolidSatellite(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSatelliteDish(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24481,6 +32079,11 @@ fun faSolidSatelliteDish(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidScaleBalanced(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24497,6 +32100,11 @@ fun faSolidScaleBalanced(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidScaleUnbalanced(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24513,6 +32121,11 @@ fun faSolidScaleUnbalanced(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidScaleUnbalancedFlip(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24529,6 +32142,11 @@ fun faSolidScaleUnbalancedFlip(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSchlix(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24545,6 +32163,11 @@ fun faBrandsSchlix(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSchool(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24561,6 +32184,11 @@ fun faSolidSchool(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSchoolCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24577,6 +32205,11 @@ fun faSolidSchoolCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSchoolCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24593,6 +32226,11 @@ fun faSolidSchoolCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null
 @Composable
 fun faSolidSchoolCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24609,6 +32247,11 @@ fun faSolidSchoolCircleXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSchoolFlag(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24625,6 +32268,11 @@ fun faSolidSchoolFlag(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSchoolLock(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24641,6 +32289,11 @@ fun faSolidSchoolLock(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidScissors(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24657,6 +32310,11 @@ fun faSolidScissors(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsScreenpal(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24673,6 +32331,11 @@ fun faBrandsScreenpal(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidScrewdriver(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24689,6 +32352,11 @@ fun faSolidScrewdriver(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidScrewdriverWrench(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24705,6 +32373,11 @@ fun faSolidScrewdriverWrench(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsScribd(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24721,6 +32394,11 @@ fun faBrandsScribd(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidScroll(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24737,6 +32415,11 @@ fun faSolidScroll(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidScrollTorah(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24753,6 +32436,11 @@ fun faSolidScrollTorah(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSdCard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24769,6 +32457,11 @@ fun faSolidSdCard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSearchengin(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 460 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24785,6 +32478,11 @@ fun faBrandsSearchengin(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSection(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24801,6 +32499,11 @@ fun faSolidSection(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSeedling(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24817,6 +32520,11 @@ fun faSolidSeedling(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSellcast(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24833,6 +32541,11 @@ fun faBrandsSellcast(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSellsy(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24849,6 +32562,11 @@ fun faBrandsSellsy(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidServer(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24865,6 +32583,11 @@ fun faSolidServer(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsServicestack(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24881,6 +32604,11 @@ fun faBrandsServicestack(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShapes(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24897,6 +32625,11 @@ fun faSolidShapes(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShare(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24913,6 +32646,11 @@ fun faSolidShare(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShareFromSquare(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24929,6 +32667,11 @@ fun faSolidShareFromSquare(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularShareFromSquare(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24945,6 +32688,11 @@ fun faRegularShareFromSquare(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShareNodes(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24961,6 +32709,11 @@ fun faSolidShareNodes(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSheetPlastic(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24977,6 +32730,11 @@ fun faSolidSheetPlastic(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShekelSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -24993,6 +32751,11 @@ fun faSolidShekelSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShield(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25009,6 +32772,11 @@ fun faSolidShield(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShieldCat(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25025,6 +32793,11 @@ fun faSolidShieldCat(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShieldDog(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25041,6 +32814,11 @@ fun faSolidShieldDog(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShieldHalved(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25057,6 +32835,11 @@ fun faSolidShieldHalved(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShieldHeart(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25073,6 +32856,11 @@ fun faSolidShieldHeart(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShieldVirus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25089,6 +32877,11 @@ fun faSolidShieldVirus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShip(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25105,6 +32898,11 @@ fun faSolidShip(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShirt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25121,6 +32919,11 @@ fun faSolidShirt(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsShirtsinbulk(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25137,6 +32940,11 @@ fun faBrandsShirtsinbulk(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShoePrints(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25153,6 +32961,11 @@ fun faSolidShoePrints(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShop(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25169,6 +32982,11 @@ fun faSolidShop(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShopLock(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25185,6 +33003,11 @@ fun faSolidShopLock(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShopSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25201,6 +33024,11 @@ fun faSolidShopSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsShopify(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25217,6 +33045,11 @@ fun faBrandsShopify(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsShopware(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25233,6 +33066,11 @@ fun faBrandsShopware(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShower(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25249,6 +33087,11 @@ fun faSolidShower(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShrimp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25265,6 +33108,11 @@ fun faSolidShrimp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShuffle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25281,6 +33129,11 @@ fun faSolidShuffle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidShuttleSpace(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25297,6 +33150,11 @@ fun faSolidShuttleSpace(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSignHanging(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25313,6 +33171,11 @@ fun faSolidSignHanging(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSignal(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25329,6 +33192,11 @@ fun faSolidSignal(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSignature(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25345,6 +33213,11 @@ fun faSolidSignature(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSignsPost(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25361,6 +33234,11 @@ fun faSolidSignsPost(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSimCard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25377,6 +33255,11 @@ fun faSolidSimCard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSimplybuilt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25393,6 +33276,11 @@ fun faBrandsSimplybuilt(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSink(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25409,6 +33297,11 @@ fun faSolidSink(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSistrix(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25425,6 +33318,11 @@ fun faBrandsSistrix(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSitemap(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25441,6 +33339,11 @@ fun faSolidSitemap(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSith(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25457,6 +33360,11 @@ fun faBrandsSith(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSitrox(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25473,6 +33381,11 @@ fun faBrandsSitrox(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSketch(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25489,6 +33402,11 @@ fun faBrandsSketch(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSkull(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25505,6 +33423,11 @@ fun faSolidSkull(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSkullCrossbones(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25521,6 +33444,11 @@ fun faSolidSkullCrossbones(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSkyatlas(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25537,6 +33465,11 @@ fun faBrandsSkyatlas(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSkype(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25553,6 +33486,11 @@ fun faBrandsSkype(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSlack(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25569,6 +33507,11 @@ fun faBrandsSlack(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25585,6 +33528,11 @@ fun faSolidSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSleigh(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25601,6 +33549,11 @@ fun faSolidSleigh(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSliders(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25617,6 +33570,11 @@ fun faSolidSliders(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSlideshare(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25633,6 +33591,11 @@ fun faBrandsSlideshare(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSmog(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25649,6 +33612,11 @@ fun faSolidSmog(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSmoking(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25665,6 +33633,11 @@ fun faSolidSmoking(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSnapchat(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25681,6 +33654,11 @@ fun faBrandsSnapchat(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSnowflake(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25697,6 +33675,11 @@ fun faSolidSnowflake(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularSnowflake(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25713,6 +33696,11 @@ fun faRegularSnowflake(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSnowman(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25729,6 +33717,11 @@ fun faSolidSnowman(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSnowplow(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25745,6 +33738,11 @@ fun faSolidSnowplow(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSoap(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25761,6 +33759,11 @@ fun faSolidSoap(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSocks(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25777,6 +33780,11 @@ fun faSolidSocks(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSolarPanel(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25793,6 +33801,11 @@ fun faSolidSolarPanel(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSort(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25809,6 +33822,11 @@ fun faSolidSort(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSortDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25825,6 +33843,11 @@ fun faSolidSortDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSortUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25841,6 +33864,11 @@ fun faSolidSortUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSoundcloud(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25857,6 +33885,11 @@ fun faBrandsSoundcloud(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSourcetree(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25873,6 +33906,11 @@ fun faBrandsSourcetree(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSpa(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25889,6 +33927,11 @@ fun faSolidSpa(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSpaceAwesome(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25905,6 +33948,11 @@ fun faBrandsSpaceAwesome(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSpaghettiMonsterFlying(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25921,6 +33969,11 @@ fun faSolidSpaghettiMonsterFlying(attrs: AttrBuilderContext<SVGElement>? = null)
 @Composable
 fun faBrandsSpeakap(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25937,6 +33990,11 @@ fun faBrandsSpeakap(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSpeakerDeck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25953,6 +34011,11 @@ fun faBrandsSpeakerDeck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSpellCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25969,6 +34032,11 @@ fun faSolidSpellCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSpider(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -25985,6 +34053,11 @@ fun faSolidSpider(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSpinner(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26001,6 +34074,11 @@ fun faSolidSpinner(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSplotch(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26017,6 +34095,11 @@ fun faSolidSplotch(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSpoon(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26033,6 +34116,11 @@ fun faSolidSpoon(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSpotify(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26049,6 +34137,11 @@ fun faBrandsSpotify(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSprayCan(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26065,6 +34158,11 @@ fun faSolidSprayCan(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSprayCanSparkles(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26081,6 +34179,11 @@ fun faSolidSprayCanSparkles(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquare(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26097,6 +34200,11 @@ fun faSolidSquare(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularSquare(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26113,6 +34221,11 @@ fun faRegularSquare(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquareArrowUpRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26129,6 +34242,11 @@ fun faSolidSquareArrowUpRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareBehance(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26145,6 +34263,11 @@ fun faBrandsSquareBehance(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquareCaretDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26161,6 +34284,11 @@ fun faSolidSquareCaretDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularSquareCaretDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26177,6 +34305,11 @@ fun faRegularSquareCaretDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquareCaretLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26193,6 +34326,11 @@ fun faSolidSquareCaretLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularSquareCaretLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26209,6 +34347,11 @@ fun faRegularSquareCaretLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquareCaretRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26225,6 +34368,11 @@ fun faSolidSquareCaretRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularSquareCaretRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26241,6 +34389,11 @@ fun faRegularSquareCaretRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquareCaretUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26257,6 +34410,11 @@ fun faSolidSquareCaretUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularSquareCaretUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26273,6 +34431,11 @@ fun faRegularSquareCaretUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquareCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26289,6 +34452,11 @@ fun faSolidSquareCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularSquareCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26305,6 +34473,11 @@ fun faRegularSquareCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareDribbble(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26321,6 +34494,11 @@ fun faBrandsSquareDribbble(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquareEnvelope(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26337,6 +34515,11 @@ fun faSolidSquareEnvelope(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareFacebook(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26353,6 +34536,11 @@ fun faBrandsSquareFacebook(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareFontAwesome(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26369,6 +34557,11 @@ fun faBrandsSquareFontAwesome(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareFontAwesomeStroke(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26385,6 +34578,11 @@ fun faBrandsSquareFontAwesomeStroke(attrs: AttrBuilderContext<SVGElement>? = nul
 @Composable
 fun faSolidSquareFull(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26401,6 +34599,11 @@ fun faSolidSquareFull(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularSquareFull(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26417,6 +34620,11 @@ fun faRegularSquareFull(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareGit(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26433,6 +34641,11 @@ fun faBrandsSquareGit(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareGithub(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26449,6 +34662,11 @@ fun faBrandsSquareGithub(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareGitlab(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26465,6 +34683,11 @@ fun faBrandsSquareGitlab(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareGooglePlus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26481,6 +34704,11 @@ fun faBrandsSquareGooglePlus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquareH(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26497,6 +34725,11 @@ fun faSolidSquareH(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareHackerNews(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26513,6 +34746,11 @@ fun faBrandsSquareHackerNews(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareInstagram(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26529,6 +34767,11 @@ fun faBrandsSquareInstagram(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareJs(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26545,6 +34788,11 @@ fun faBrandsSquareJs(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareLastfm(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26561,6 +34809,11 @@ fun faBrandsSquareLastfm(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquareMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26577,6 +34830,11 @@ fun faSolidSquareMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularSquareMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26593,6 +34851,11 @@ fun faRegularSquareMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquareNfi(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26609,6 +34872,11 @@ fun faSolidSquareNfi(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareOdnoklassniki(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26625,6 +34893,11 @@ fun faBrandsSquareOdnoklassniki(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquareParking(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26641,6 +34914,11 @@ fun faSolidSquareParking(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquarePen(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26657,6 +34935,11 @@ fun faSolidSquarePen(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquarePersonConfined(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26673,6 +34956,11 @@ fun faSolidSquarePersonConfined(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquarePhone(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26689,6 +34977,11 @@ fun faSolidSquarePhone(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquarePhoneFlip(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26705,6 +34998,11 @@ fun faSolidSquarePhoneFlip(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquarePiedPiper(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26721,6 +35019,11 @@ fun faBrandsSquarePiedPiper(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquarePinterest(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26737,6 +35040,11 @@ fun faBrandsSquarePinterest(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquarePlus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26753,6 +35061,11 @@ fun faSolidSquarePlus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularSquarePlus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26769,6 +35082,11 @@ fun faRegularSquarePlus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquarePollHorizontal(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26785,6 +35103,11 @@ fun faSolidSquarePollHorizontal(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquarePollVertical(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26801,6 +35124,11 @@ fun faSolidSquarePollVertical(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareReddit(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26817,6 +35145,11 @@ fun faBrandsSquareReddit(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquareRootVariable(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26833,6 +35166,11 @@ fun faSolidSquareRootVariable(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquareRss(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26849,6 +35187,11 @@ fun faSolidSquareRss(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquareShareNodes(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26865,6 +35208,11 @@ fun faSolidSquareShareNodes(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareSnapchat(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26881,6 +35229,11 @@ fun faBrandsSquareSnapchat(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareSteam(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26897,6 +35250,11 @@ fun faBrandsSquareSteam(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareTumblr(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26913,6 +35271,11 @@ fun faBrandsSquareTumblr(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareTwitter(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26929,6 +35292,11 @@ fun faBrandsSquareTwitter(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquareUpRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26945,6 +35313,11 @@ fun faSolidSquareUpRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareViadeo(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26961,6 +35334,11 @@ fun faBrandsSquareViadeo(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareVimeo(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26977,6 +35355,11 @@ fun faBrandsSquareVimeo(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquareVirus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -26993,6 +35376,11 @@ fun faSolidSquareVirus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareWhatsapp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27009,6 +35397,11 @@ fun faBrandsSquareWhatsapp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareXing(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27025,6 +35418,11 @@ fun faBrandsSquareXing(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSquareXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27041,6 +35439,11 @@ fun faSolidSquareXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquareYoutube(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27057,6 +35460,11 @@ fun faBrandsSquareYoutube(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSquarespace(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27073,6 +35481,11 @@ fun faBrandsSquarespace(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsStackExchange(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27089,6 +35502,11 @@ fun faBrandsStackExchange(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsStackOverflow(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27105,6 +35523,11 @@ fun faBrandsStackOverflow(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsStackpath(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27121,6 +35544,11 @@ fun faBrandsStackpath(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidStaffSnake(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27137,6 +35565,11 @@ fun faSolidStaffSnake(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidStairs(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27153,6 +35586,11 @@ fun faSolidStairs(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidStamp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27169,6 +35607,11 @@ fun faSolidStamp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidStapler(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27185,6 +35628,11 @@ fun faSolidStapler(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidStar(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27201,6 +35649,11 @@ fun faSolidStar(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularStar(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27217,6 +35670,11 @@ fun faRegularStar(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidStarAndCrescent(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27233,6 +35691,11 @@ fun faSolidStarAndCrescent(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidStarHalf(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27249,6 +35712,11 @@ fun faSolidStarHalf(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularStarHalf(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27265,6 +35733,11 @@ fun faRegularStarHalf(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidStarHalfStroke(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27281,6 +35754,11 @@ fun faSolidStarHalfStroke(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularStarHalfStroke(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27297,6 +35775,11 @@ fun faRegularStarHalfStroke(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidStarOfDavid(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27313,6 +35796,11 @@ fun faSolidStarOfDavid(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidStarOfLife(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27329,6 +35817,11 @@ fun faSolidStarOfLife(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsStaylinked(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 440 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27345,6 +35838,11 @@ fun faBrandsStaylinked(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSteam(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27361,6 +35859,11 @@ fun faBrandsSteam(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSteamSymbol(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27377,6 +35880,11 @@ fun faBrandsSteamSymbol(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSterlingSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27393,6 +35901,11 @@ fun faSolidSterlingSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidStethoscope(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27409,6 +35922,11 @@ fun faSolidStethoscope(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsStickerMule(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27425,6 +35943,11 @@ fun faBrandsStickerMule(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidStop(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27441,6 +35964,11 @@ fun faSolidStop(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidStopwatch(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27457,6 +35985,11 @@ fun faSolidStopwatch(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidStopwatch20(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27473,6 +36006,11 @@ fun faSolidStopwatch20(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidStore(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27489,6 +36027,11 @@ fun faSolidStore(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidStoreSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27505,6 +36048,11 @@ fun faSolidStoreSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsStrava(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27521,6 +36069,11 @@ fun faBrandsStrava(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidStreetView(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27537,6 +36090,11 @@ fun faSolidStreetView(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidStrikethrough(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27553,6 +36111,11 @@ fun faSolidStrikethrough(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsStripe(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27569,6 +36132,11 @@ fun faBrandsStripe(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsStripeS(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27585,6 +36153,11 @@ fun faBrandsStripeS(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidStroopwafel(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27601,6 +36174,11 @@ fun faSolidStroopwafel(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsStudiovinari(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27617,6 +36195,11 @@ fun faBrandsStudiovinari(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsStumbleupon(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27633,6 +36216,11 @@ fun faBrandsStumbleupon(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsStumbleuponCircle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27649,6 +36237,11 @@ fun faBrandsStumbleuponCircle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSubscript(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27665,6 +36258,11 @@ fun faSolidSubscript(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSuitcase(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27681,6 +36279,11 @@ fun faSolidSuitcase(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSuitcaseMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27697,6 +36300,11 @@ fun faSolidSuitcaseMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSuitcaseRolling(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27713,6 +36321,11 @@ fun faSolidSuitcaseRolling(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSun(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27729,6 +36342,11 @@ fun faSolidSun(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularSun(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27745,6 +36363,11 @@ fun faRegularSun(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSunPlantWilt(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27761,6 +36384,11 @@ fun faSolidSunPlantWilt(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSuperpowers(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27777,6 +36405,11 @@ fun faBrandsSuperpowers(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSuperscript(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27793,6 +36426,11 @@ fun faSolidSuperscript(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSupple(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27809,6 +36447,11 @@ fun faBrandsSupple(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSuse(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27825,6 +36468,11 @@ fun faBrandsSuse(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSwatchbook(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27841,6 +36489,11 @@ fun faSolidSwatchbook(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSwift(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27857,6 +36510,11 @@ fun faBrandsSwift(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsSymfony(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27873,6 +36531,11 @@ fun faBrandsSymfony(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSynagogue(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27889,6 +36552,11 @@ fun faSolidSynagogue(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidSyringe(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27905,6 +36573,11 @@ fun faSolidSyringe(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidT(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27921,6 +36594,11 @@ fun faSolidT(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTable(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27937,6 +36615,11 @@ fun faSolidTable(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTableCells(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27953,6 +36636,11 @@ fun faSolidTableCells(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTableCellsLarge(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27969,6 +36657,11 @@ fun faSolidTableCellsLarge(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTableColumns(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -27985,6 +36678,11 @@ fun faSolidTableColumns(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTableList(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28001,6 +36699,11 @@ fun faSolidTableList(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTableTennisPaddleBall(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28017,6 +36720,11 @@ fun faSolidTableTennisPaddleBall(attrs: AttrBuilderContext<SVGElement>? = null) 
 @Composable
 fun faSolidTablet(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28033,6 +36741,11 @@ fun faSolidTablet(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTabletButton(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28049,6 +36762,11 @@ fun faSolidTabletButton(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTabletScreenButton(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28065,6 +36783,11 @@ fun faSolidTabletScreenButton(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTablets(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28081,6 +36804,11 @@ fun faSolidTablets(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTachographDigital(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28097,6 +36825,11 @@ fun faSolidTachographDigital(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTag(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28113,6 +36846,11 @@ fun faSolidTag(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTags(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28129,6 +36867,11 @@ fun faSolidTags(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTape(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28145,6 +36888,11 @@ fun faSolidTape(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTarp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28161,6 +36909,11 @@ fun faSolidTarp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTarpDroplet(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28177,6 +36930,11 @@ fun faSolidTarpDroplet(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTaxi(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28193,6 +36951,11 @@ fun faSolidTaxi(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsTeamspeak(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28209,6 +36972,11 @@ fun faBrandsTeamspeak(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTeeth(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28225,6 +36993,11 @@ fun faSolidTeeth(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTeethOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28241,6 +37014,11 @@ fun faSolidTeethOpen(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsTelegram(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28257,6 +37035,11 @@ fun faBrandsTelegram(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTemperatureArrowDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28273,6 +37056,11 @@ fun faSolidTemperatureArrowDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTemperatureArrowUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28289,6 +37077,11 @@ fun faSolidTemperatureArrowUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTemperatureEmpty(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28305,6 +37098,11 @@ fun faSolidTemperatureEmpty(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTemperatureFull(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28321,6 +37119,11 @@ fun faSolidTemperatureFull(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTemperatureHalf(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28337,6 +37140,11 @@ fun faSolidTemperatureHalf(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTemperatureHigh(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28353,6 +37161,11 @@ fun faSolidTemperatureHigh(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTemperatureLow(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28369,6 +37182,11 @@ fun faSolidTemperatureLow(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTemperatureQuarter(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28385,6 +37203,11 @@ fun faSolidTemperatureQuarter(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTemperatureThreeQuarters(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28401,6 +37224,11 @@ fun faSolidTemperatureThreeQuarters(attrs: AttrBuilderContext<SVGElement>? = nul
 @Composable
 fun faBrandsTencentWeibo(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28417,6 +37245,11 @@ fun faBrandsTencentWeibo(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTengeSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28433,6 +37266,11 @@ fun faSolidTengeSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTent(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28449,6 +37287,11 @@ fun faSolidTent(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTentArrowDownToLine(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28465,6 +37308,11 @@ fun faSolidTentArrowDownToLine(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTentArrowLeftRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28481,6 +37329,11 @@ fun faSolidTentArrowLeftRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTentArrowTurnLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28497,6 +37350,11 @@ fun faSolidTentArrowTurnLeft(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTentArrowsDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28513,6 +37371,11 @@ fun faSolidTentArrowsDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTents(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28529,6 +37392,11 @@ fun faSolidTents(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTerminal(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28545,6 +37413,11 @@ fun faSolidTerminal(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTextHeight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28561,6 +37434,11 @@ fun faSolidTextHeight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTextSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28577,6 +37455,11 @@ fun faSolidTextSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTextWidth(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28593,6 +37476,11 @@ fun faSolidTextWidth(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsTheRedYeti(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28609,6 +37497,11 @@ fun faBrandsTheRedYeti(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsThemeco(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28625,6 +37518,11 @@ fun faBrandsThemeco(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsThemeisle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28641,6 +37539,11 @@ fun faBrandsThemeisle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidThermometer(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28657,6 +37560,11 @@ fun faSolidThermometer(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsThinkPeaks(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28673,6 +37581,11 @@ fun faBrandsThinkPeaks(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidThumbsDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28689,6 +37602,11 @@ fun faSolidThumbsDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularThumbsDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28705,6 +37623,11 @@ fun faRegularThumbsDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidThumbsUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28721,6 +37644,11 @@ fun faSolidThumbsUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularThumbsUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28737,6 +37665,11 @@ fun faRegularThumbsUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidThumbtack(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28753,6 +37686,11 @@ fun faSolidThumbtack(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTicket(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28769,6 +37707,11 @@ fun faSolidTicket(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTicketSimple(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28785,6 +37728,11 @@ fun faSolidTicketSimple(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsTiktok(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28801,6 +37749,11 @@ fun faBrandsTiktok(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTimeline(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28817,6 +37770,11 @@ fun faSolidTimeline(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidToggleOff(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28833,6 +37791,11 @@ fun faSolidToggleOff(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidToggleOn(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28849,6 +37812,11 @@ fun faSolidToggleOn(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidToilet(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28865,6 +37833,11 @@ fun faSolidToilet(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidToiletPaper(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28881,6 +37854,11 @@ fun faSolidToiletPaper(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidToiletPaperSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28897,6 +37875,11 @@ fun faSolidToiletPaperSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidToiletPortable(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28913,6 +37896,11 @@ fun faSolidToiletPortable(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidToiletsPortable(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28929,6 +37917,11 @@ fun faSolidToiletsPortable(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidToolbox(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28945,6 +37938,11 @@ fun faSolidToolbox(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTooth(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28961,6 +37959,11 @@ fun faSolidTooth(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidToriiGate(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28977,6 +37980,11 @@ fun faSolidToriiGate(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTornado(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -28993,6 +38001,11 @@ fun faSolidTornado(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTowerBroadcast(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29009,6 +38022,11 @@ fun faSolidTowerBroadcast(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTowerCell(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29025,6 +38043,11 @@ fun faSolidTowerCell(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTowerObservation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29041,6 +38064,11 @@ fun faSolidTowerObservation(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTractor(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29057,6 +38085,11 @@ fun faSolidTractor(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsTradeFederation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29073,6 +38106,11 @@ fun faBrandsTradeFederation(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTrademark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29089,6 +38127,11 @@ fun faSolidTrademark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTrafficLight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29105,6 +38148,11 @@ fun faSolidTrafficLight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTrailer(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29121,6 +38169,11 @@ fun faSolidTrailer(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTrain(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29137,6 +38190,11 @@ fun faSolidTrain(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTrainSubway(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29153,6 +38211,11 @@ fun faSolidTrainSubway(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTrainTram(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29169,6 +38232,11 @@ fun faSolidTrainTram(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTransgender(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29185,6 +38253,11 @@ fun faSolidTransgender(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTrash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29201,6 +38274,11 @@ fun faSolidTrash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTrashArrowUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29217,6 +38295,11 @@ fun faSolidTrashArrowUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTrashCan(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29233,6 +38316,11 @@ fun faSolidTrashCan(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularTrashCan(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29249,6 +38337,11 @@ fun faRegularTrashCan(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTrashCanArrowUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29265,6 +38358,11 @@ fun faSolidTrashCanArrowUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTree(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29281,6 +38379,11 @@ fun faSolidTree(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTreeCity(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29297,6 +38400,11 @@ fun faSolidTreeCity(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsTrello(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29313,6 +38421,11 @@ fun faBrandsTrello(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTriangleExclamation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29329,6 +38442,11 @@ fun faSolidTriangleExclamation(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTrophy(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29345,6 +38463,11 @@ fun faSolidTrophy(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTrowel(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29361,6 +38484,11 @@ fun faSolidTrowel(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTrowelBricks(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29377,6 +38505,11 @@ fun faSolidTrowelBricks(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTruck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29393,6 +38526,11 @@ fun faSolidTruck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTruckArrowRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29409,6 +38547,11 @@ fun faSolidTruckArrowRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTruckDroplet(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29425,6 +38568,11 @@ fun faSolidTruckDroplet(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTruckFast(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29441,6 +38589,11 @@ fun faSolidTruckFast(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTruckField(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29457,6 +38610,11 @@ fun faSolidTruckField(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTruckFieldUn(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29473,6 +38631,11 @@ fun faSolidTruckFieldUn(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTruckFront(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29489,6 +38652,11 @@ fun faSolidTruckFront(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTruckMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29505,6 +38673,11 @@ fun faSolidTruckMedical(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTruckMonster(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29521,6 +38694,11 @@ fun faSolidTruckMonster(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTruckMoving(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29537,6 +38715,11 @@ fun faSolidTruckMoving(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTruckPickup(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29553,6 +38736,11 @@ fun faSolidTruckPickup(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTruckPlane(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29569,6 +38757,11 @@ fun faSolidTruckPlane(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTruckRampBox(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29585,6 +38778,11 @@ fun faSolidTruckRampBox(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTty(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29601,6 +38799,11 @@ fun faSolidTty(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsTumblr(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29617,6 +38820,11 @@ fun faBrandsTumblr(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTurkishLiraSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29633,6 +38841,11 @@ fun faSolidTurkishLiraSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTurnDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29649,6 +38862,11 @@ fun faSolidTurnDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTurnUp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29665,6 +38883,11 @@ fun faSolidTurnUp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidTv(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29681,6 +38904,11 @@ fun faSolidTv(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsTwitch(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29697,6 +38925,11 @@ fun faBrandsTwitch(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsTwitter(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29713,6 +38946,11 @@ fun faBrandsTwitter(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsTypo3(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29729,6 +38967,11 @@ fun faBrandsTypo3(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidU(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29745,6 +38988,11 @@ fun faSolidU(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsUber(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29761,6 +39009,11 @@ fun faBrandsUber(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsUbuntu(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29777,6 +39030,11 @@ fun faBrandsUbuntu(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsUikit(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29793,6 +39051,11 @@ fun faBrandsUikit(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsUmbraco(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 510 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29809,6 +39072,11 @@ fun faBrandsUmbraco(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUmbrella(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29825,6 +39093,11 @@ fun faSolidUmbrella(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUmbrellaBeach(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29841,6 +39114,11 @@ fun faSolidUmbrellaBeach(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsUncharted(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29857,6 +39135,11 @@ fun faBrandsUncharted(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUnderline(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29873,6 +39156,11 @@ fun faSolidUnderline(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsUniregistry(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29889,6 +39177,11 @@ fun faBrandsUniregistry(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsUnity(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29905,6 +39198,11 @@ fun faBrandsUnity(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUniversalAccess(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29921,6 +39219,11 @@ fun faSolidUniversalAccess(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUnlock(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29937,6 +39240,11 @@ fun faSolidUnlock(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUnlockKeyhole(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29953,6 +39261,11 @@ fun faSolidUnlockKeyhole(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsUnsplash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29969,6 +39282,11 @@ fun faBrandsUnsplash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsUntappd(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -29985,6 +39303,11 @@ fun faBrandsUntappd(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUpDown(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 256 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30001,6 +39324,11 @@ fun faSolidUpDown(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUpDownLeftRight(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30017,6 +39345,11 @@ fun faSolidUpDownLeftRight(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUpLong(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30033,6 +39366,11 @@ fun faSolidUpLong(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUpRightAndDownLeftFromCenter(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30049,6 +39387,11 @@ fun faSolidUpRightAndDownLeftFromCenter(attrs: AttrBuilderContext<SVGElement>? =
 @Composable
 fun faSolidUpRightFromSquare(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30065,6 +39408,11 @@ fun faSolidUpRightFromSquare(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUpload(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30081,6 +39429,11 @@ fun faSolidUpload(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsUps(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30097,6 +39450,11 @@ fun faBrandsUps(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsUsb(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30113,6 +39471,11 @@ fun faBrandsUsb(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUser(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30129,6 +39492,11 @@ fun faSolidUser(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularUser(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30145,6 +39513,11 @@ fun faRegularUser(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserAstronaut(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30161,6 +39534,11 @@ fun faSolidUserAstronaut(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30177,6 +39555,11 @@ fun faSolidUserCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserClock(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30193,6 +39576,11 @@ fun faSolidUserClock(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserDoctor(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30209,6 +39597,11 @@ fun faSolidUserDoctor(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserGear(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30225,6 +39618,11 @@ fun faSolidUserGear(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserGraduate(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30241,6 +39639,11 @@ fun faSolidUserGraduate(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserGroup(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30257,6 +39660,11 @@ fun faSolidUserGroup(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserInjured(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30273,6 +39681,11 @@ fun faSolidUserInjured(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserLarge(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30289,6 +39702,11 @@ fun faSolidUserLarge(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserLargeSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30305,6 +39723,11 @@ fun faSolidUserLargeSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserLock(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30321,6 +39744,11 @@ fun faSolidUserLock(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30337,6 +39765,11 @@ fun faSolidUserMinus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserNinja(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30353,6 +39786,11 @@ fun faSolidUserNinja(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserNurse(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30369,6 +39807,11 @@ fun faSolidUserNurse(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserPen(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30385,6 +39828,11 @@ fun faSolidUserPen(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserPlus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30401,6 +39849,11 @@ fun faSolidUserPlus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserSecret(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30417,6 +39870,11 @@ fun faSolidUserSecret(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserShield(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30433,6 +39891,11 @@ fun faSolidUserShield(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30449,6 +39912,11 @@ fun faSolidUserSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserTag(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30465,6 +39933,11 @@ fun faSolidUserTag(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserTie(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30481,6 +39954,11 @@ fun faSolidUserTie(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUserXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30497,6 +39975,11 @@ fun faSolidUserXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUsers(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30513,6 +39996,11 @@ fun faSolidUsers(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUsersBetweenLines(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30529,6 +40017,11 @@ fun faSolidUsersBetweenLines(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUsersGear(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30545,6 +40038,11 @@ fun faSolidUsersGear(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUsersLine(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30561,6 +40059,11 @@ fun faSolidUsersLine(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUsersRays(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30577,6 +40080,11 @@ fun faSolidUsersRays(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUsersRectangle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30593,6 +40101,11 @@ fun faSolidUsersRectangle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUsersSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30609,6 +40122,11 @@ fun faSolidUsersSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUsersViewfinder(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30625,6 +40143,11 @@ fun faSolidUsersViewfinder(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsUsps(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30641,6 +40164,11 @@ fun faBrandsUsps(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsUssunnah(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30657,6 +40185,11 @@ fun faBrandsUssunnah(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidUtensils(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30673,6 +40206,11 @@ fun faSolidUtensils(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidV(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30689,6 +40227,11 @@ fun faSolidV(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsVaadin(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30705,6 +40248,11 @@ fun faBrandsVaadin(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVanShuttle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30721,6 +40269,11 @@ fun faSolidVanShuttle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVault(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30737,6 +40290,11 @@ fun faSolidVault(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVectorSquare(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30753,6 +40311,11 @@ fun faSolidVectorSquare(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVenus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30769,6 +40332,11 @@ fun faSolidVenus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVenusDouble(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30785,6 +40353,11 @@ fun faSolidVenusDouble(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVenusMars(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30801,6 +40374,11 @@ fun faSolidVenusMars(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVest(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30817,6 +40395,11 @@ fun faSolidVest(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVestPatches(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30833,6 +40416,11 @@ fun faSolidVestPatches(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsViacoin(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30849,6 +40437,11 @@ fun faBrandsViacoin(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsViadeo(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30865,6 +40458,11 @@ fun faBrandsViadeo(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVial(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30881,6 +40479,11 @@ fun faSolidVial(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVialCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30897,6 +40500,11 @@ fun faSolidVialCircleCheck(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVialVirus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30913,6 +40521,11 @@ fun faSolidVialVirus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVials(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30929,6 +40542,11 @@ fun faSolidVials(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsViber(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30945,6 +40563,11 @@ fun faBrandsViber(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVideo(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30961,6 +40584,11 @@ fun faSolidVideo(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVideoSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30977,6 +40605,11 @@ fun faSolidVideoSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVihara(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -30993,6 +40626,11 @@ fun faSolidVihara(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsVimeo(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31009,6 +40647,11 @@ fun faBrandsVimeo(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsVimeoV(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31025,6 +40668,11 @@ fun faBrandsVimeoV(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsVine(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31041,6 +40689,11 @@ fun faBrandsVine(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVirus(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31057,6 +40710,11 @@ fun faSolidVirus(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVirusCovid(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31073,6 +40731,11 @@ fun faSolidVirusCovid(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVirusCovidSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31089,6 +40752,11 @@ fun faSolidVirusCovidSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVirusSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31105,6 +40773,11 @@ fun faSolidVirusSlash(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidViruses(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31121,6 +40794,11 @@ fun faSolidViruses(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsVk(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31137,6 +40815,11 @@ fun faBrandsVk(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsVnv(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31153,6 +40836,11 @@ fun faBrandsVnv(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVoicemail(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31169,6 +40857,11 @@ fun faSolidVoicemail(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVolcano(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31185,6 +40878,11 @@ fun faSolidVolcano(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVolleyball(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31201,6 +40899,11 @@ fun faSolidVolleyball(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVolumeHigh(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31217,6 +40920,11 @@ fun faSolidVolumeHigh(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVolumeLow(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31233,6 +40941,11 @@ fun faSolidVolumeLow(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVolumeOff(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31249,6 +40962,11 @@ fun faSolidVolumeOff(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVolumeXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31265,6 +40983,11 @@ fun faSolidVolumeXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidVrCardboard(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31281,6 +41004,11 @@ fun faSolidVrCardboard(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsVuejs(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31297,6 +41025,11 @@ fun faBrandsVuejs(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidW(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31313,6 +41046,11 @@ fun faSolidW(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWalkieTalkie(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31329,6 +41067,11 @@ fun faSolidWalkieTalkie(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWallet(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31345,6 +41088,11 @@ fun faSolidWallet(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWandMagic(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31361,6 +41109,11 @@ fun faSolidWandMagic(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWandMagicSparkles(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31377,6 +41130,11 @@ fun faSolidWandMagicSparkles(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWandSparkles(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31393,6 +41151,11 @@ fun faSolidWandSparkles(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWarehouse(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31409,6 +41172,11 @@ fun faSolidWarehouse(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsWatchmanMonitoring(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31425,6 +41193,11 @@ fun faBrandsWatchmanMonitoring(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWater(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31441,6 +41214,11 @@ fun faSolidWater(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWaterLadder(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31457,6 +41235,11 @@ fun faSolidWaterLadder(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWaveSquare(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31473,6 +41256,11 @@ fun faSolidWaveSquare(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsWaze(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31489,6 +41277,11 @@ fun faBrandsWaze(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsWeebly(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31505,6 +41298,11 @@ fun faBrandsWeebly(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsWeibo(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31521,6 +41319,11 @@ fun faBrandsWeibo(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWeightHanging(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31537,6 +41340,11 @@ fun faSolidWeightHanging(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWeightScale(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31553,6 +41361,11 @@ fun faSolidWeightScale(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsWeixin(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31569,6 +41382,11 @@ fun faBrandsWeixin(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsWhatsapp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31585,6 +41403,11 @@ fun faBrandsWhatsapp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWheatAwn(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31601,6 +41424,11 @@ fun faSolidWheatAwn(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWheatAwnCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31617,6 +41445,11 @@ fun faSolidWheatAwnCircleExclamation(attrs: AttrBuilderContext<SVGElement>? = nu
 @Composable
 fun faSolidWheelchair(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31633,6 +41466,11 @@ fun faSolidWheelchair(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWheelchairMove(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31649,6 +41487,11 @@ fun faSolidWheelchairMove(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWhiskeyGlass(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31665,6 +41508,11 @@ fun faSolidWhiskeyGlass(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsWhmcs(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31681,6 +41529,11 @@ fun faBrandsWhmcs(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWifi(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31697,6 +41550,11 @@ fun faSolidWifi(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsWikipediaW(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31713,6 +41571,11 @@ fun faBrandsWikipediaW(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWind(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31729,6 +41592,11 @@ fun faSolidWind(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWindowMaximize(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31745,6 +41613,11 @@ fun faSolidWindowMaximize(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularWindowMaximize(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31761,6 +41634,11 @@ fun faRegularWindowMaximize(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWindowMinimize(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31777,6 +41655,11 @@ fun faSolidWindowMinimize(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularWindowMinimize(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31793,6 +41676,11 @@ fun faRegularWindowMinimize(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWindowRestore(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31809,6 +41697,11 @@ fun faSolidWindowRestore(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faRegularWindowRestore(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31825,6 +41718,11 @@ fun faRegularWindowRestore(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsWindows(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31841,6 +41739,11 @@ fun faBrandsWindows(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWineBottle(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31857,6 +41760,11 @@ fun faSolidWineBottle(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWineGlass(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31873,6 +41781,11 @@ fun faSolidWineGlass(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWineGlassEmpty(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31889,6 +41802,11 @@ fun faSolidWineGlassEmpty(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsWirsindhandwerk(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31905,6 +41823,11 @@ fun faBrandsWirsindhandwerk(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsWix(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31921,6 +41844,11 @@ fun faBrandsWix(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsWizardsOfTheCoast(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31937,6 +41865,11 @@ fun faBrandsWizardsOfTheCoast(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsWodu(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31953,6 +41886,11 @@ fun faBrandsWodu(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsWolfPackBattalion(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31969,6 +41907,11 @@ fun faBrandsWolfPackBattalion(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWonSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -31985,6 +41928,11 @@ fun faSolidWonSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsWordpress(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32001,6 +41949,11 @@ fun faBrandsWordpress(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsWordpressSimple(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32017,6 +41970,11 @@ fun faBrandsWordpressSimple(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWorm(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32033,6 +41991,11 @@ fun faSolidWorm(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsWpbeginner(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32049,6 +42012,11 @@ fun faBrandsWpbeginner(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsWpexplorer(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32065,6 +42033,11 @@ fun faBrandsWpexplorer(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsWpforms(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32081,6 +42054,11 @@ fun faBrandsWpforms(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsWpressr(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32097,6 +42075,11 @@ fun faBrandsWpressr(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidWrench(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32113,6 +42096,11 @@ fun faSolidWrench(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidX(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32129,6 +42117,11 @@ fun faSolidX(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidXRay(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32145,6 +42138,11 @@ fun faSolidXRay(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsXbox(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32161,6 +42159,11 @@ fun faBrandsXbox(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsXing(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32177,6 +42180,11 @@ fun faBrandsXing(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32193,6 +42201,11 @@ fun faSolidXmark(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidXmarksLines(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32209,6 +42222,11 @@ fun faSolidXmarksLines(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidY(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32225,6 +42243,11 @@ fun faSolidY(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsYCombinator(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32241,6 +42264,11 @@ fun faBrandsYCombinator(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsYahoo(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32257,6 +42285,11 @@ fun faBrandsYahoo(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsYammer(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32273,6 +42306,11 @@ fun faBrandsYammer(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsYandex(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 256 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32289,6 +42327,11 @@ fun faBrandsYandex(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsYandexInternational(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32305,6 +42348,11 @@ fun faBrandsYandexInternational(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsYarn(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 496 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32321,6 +42369,11 @@ fun faBrandsYarn(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsYelp(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32337,6 +42390,11 @@ fun faBrandsYelp(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidYenSign(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 320 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32353,6 +42411,11 @@ fun faSolidYenSign(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidYinYang(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 512 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32369,6 +42432,11 @@ fun faSolidYinYang(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsYoast(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 448 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32385,6 +42453,11 @@ fun faBrandsYoast(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsYoutube(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 576 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32401,6 +42474,11 @@ fun faBrandsYoutube(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faSolidZ(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 384 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)
@@ -32417,6 +42495,11 @@ fun faSolidZ(attrs: AttrBuilderContext<SVGElement>? = null) {
 @Composable
 fun faBrandsZhihu(attrs: AttrBuilderContext<SVGElement>? = null) {
     Svg(viewBox = "0 0 640 512", attrs = {
+        style {
+            width(1.em)
+            height(1.em)
+            property("vertical-align", "-.125em")
+        }
         attr("aria-hidden", "true")
         attr("focusable", "false")
         attrs?.invoke(this)

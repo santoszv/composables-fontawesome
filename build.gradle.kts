@@ -1,3 +1,4 @@
+import jakarta.json.Json
 import org.jetbrains.kotlin.util.capitalizeDecapitalize.capitalizeAsciiOnly
 
 buildscript {
@@ -45,12 +46,15 @@ val generateComposables by tasks.registering(DefaultTask::class) {
             writer.appendLine("package fontawesome")
             writer.appendLine()
             writer.appendLine("import androidx.compose.runtime.Composable")
+            writer.appendLine("import org.jetbrains.compose.web.css.em")
+            writer.appendLine("import org.jetbrains.compose.web.css.height")
+            writer.appendLine("import org.jetbrains.compose.web.css.width")
             writer.appendLine("import org.jetbrains.compose.web.dom.AttrBuilderContext")
             writer.appendLine("import org.jetbrains.compose.web.svg.Path")
             writer.appendLine("import org.jetbrains.compose.web.svg.Svg")
             writer.appendLine("import org.w3c.dom.svg.SVGElement")
             file("icons.json").inputStream().use { input ->
-                val iconsMetadata = jakarta.json.Json.createParser(input).let {
+                val iconsMetadata = Json.createParser(input).let {
                     it.next()
                     it.`object`
                 }
@@ -70,6 +74,11 @@ val generateComposables by tasks.registering(DefaultTask::class) {
                         writer.appendLine("@Composable")
                         writer.appendLine("fun ${identifier}(attrs: AttrBuilderContext<SVGElement>? = null) {")
                         writer.appendLine("    Svg(viewBox = \"${viewBox.getInt(0)} ${viewBox.getInt(1)} ${viewBox.getInt(2)} ${viewBox.getInt(3)}\", attrs = {")
+                        writer.appendLine("        style {")
+                        writer.appendLine("            width(1.em)")
+                        writer.appendLine("            height(1.em)")
+                        writer.appendLine("            property(\"vertical-align\", \"-.125em\")")
+                        writer.appendLine("        }")
                         writer.appendLine("        attr(\"aria-hidden\", \"true\")")
                         writer.appendLine("        attr(\"focusable\", \"false\")")
                         writer.appendLine("        attrs?.invoke(this)")
@@ -105,7 +114,7 @@ publishing {
         artifact(jsJavadoc)
         groupId = "mx.com.inftel.oss"
         artifactId = "fontawesome-composables"
-        version = "6.2.0"
+        version = "6.2.0-r1"
         pom {
             name.set("Composables FontAwesome Icons")
             description.set("Composables FontAwesome Icons")
@@ -124,7 +133,7 @@ publishing {
             developers {
                 developer {
                     id.set("santoszv")
-                    name.set("Santos Zatarain Vera")
+                    name.set("Santos Zatarain/Vera")
                     email.set("santoszv@inftel.com.mx")
                     url.set("https://www.inftel.com.mx")
                 }
@@ -149,6 +158,11 @@ signing {
     useGpgCmd()
 }
 
-rootProject.plugins.withType<org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJsRootPlugin> {
-    rootProject.the<org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJsRootExtension>().nodeVersion = "16.0.0"
+// a temporary workaround for a bug in jsRun invocation - see https://youtrack.jetbrains.com/issue/KT-48273
+afterEvaluate {
+    rootProject.extensions.configure<org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJsRootExtension> {
+        nodeVersion = "16.0.0"
+        versions.webpackDevServer.version = "4.0.0"
+        versions.webpackCli.version = "4.9.0"
+    }
 }
