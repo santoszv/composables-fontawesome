@@ -8,8 +8,8 @@ buildscript {
 }
 
 plugins {
-    kotlin("js") version "1.6.10"
-    id("org.jetbrains.compose") version "1.1.1"
+    kotlin("js") version "1.7.10"
+    id("org.jetbrains.compose") version "1.2.0"
     `maven-publish`
     signing
 }
@@ -114,7 +114,7 @@ publishing {
         artifact(jsJavadoc)
         groupId = "mx.com.inftel.oss"
         artifactId = "fontawesome-composables"
-        version = "6.2.0-r1"
+        version = "6.2.0-r2"
         pom {
             name.set("Composables FontAwesome Icons")
             description.set("Composables FontAwesome Icons")
